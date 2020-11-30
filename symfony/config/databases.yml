@@ -1,0 +1,15 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=45.117.169.145;port=3306;dbname=hondamient_hrm;charset=utf8mb4'
+      username: hondamient_hrm
+      password: Cmu#2015
+      attributes: { export: tables }
+test:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=45.117.169.145;port=3306;dbname=test_hondamient_hrm;charset=utf8mb4'
+      username: hondamient_hrm
+      password: Cmu#2015

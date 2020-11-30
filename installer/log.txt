@@ -1,0 +1,50 @@
+Client Info
+
+User Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0
+Remote Address : ::1
+
+Server Info
+
+Host : localhost
+PHP Version : 7.2.34
+Server : Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.34
+Admin : postmaster@localhost
+
+Document Root : E:/XAMPP/htdocs
+ROOT_PATH : E:\XAMPP\htdocs\hrm
+
+OrangeHRM Installation Log
+
+Mon, 30 Nov 2020 10:48:29 +0100 DB Creation - Starting
+Mon, 30 Nov 2020 10:48:29 +0100 DB Creation - Done
+Mon, 30 Nov 2020 10:48:29 +0100 DB Creation - No Errors
+Mon, 30 Nov 2020 10:48:31 +0100 Fill Data Phase 1 - Starting
+Mon, 30 Nov 2020 10:48:31 +0100 Fill Data Phase 1 - Connected to the DB Server
+Mon, 30 Nov 2020 10:48:31 +0100 Fill Data Phase 1 - Selected the DB
+Mon, 30 Nov 2020 10:48:31 +0100 Fill Data Phase 1 - Reading DB Script
+Mon, 30 Nov 2020 10:48:31 +0100 Fill Data Phase 1 - Opened DB Script
+Mon, 30 Nov 2020 10:48:31 +0100 Fill Data Phase 1 - Read DB script
+Mon, 30 Nov 2020 10:48:31 +0100 Fill Data Phase 1 - There are 323 Statements in the DB script
+Mon, 30 Nov 2020 10:51:51 +0100 MySQL Procedure Error:No database selected
+Mon, 30 Nov 2020 10:51:51 +0100 Fill Data Phase 1 - Done
+Mon, 30 Nov 2020 10:51:51 +0100 Fill Data Phase 1 - No Errors
+Mon, 30 Nov 2020 10:51:53 +0100 Fill Data Phase 2 - Starting
+Mon, 30 Nov 2020 10:51:53 +0100 Fill Data Phase 2 - Connected to the DB Server
+Mon, 30 Nov 2020 10:51:53 +0100 Fill Data Phase 2 - Selected the DB
+Mon, 30 Nov 2020 10:51:53 +0100 Fill Data Phase 2 - Reading DB Script
+Mon, 30 Nov 2020 10:51:53 +0100 Fill Data Phase 2 - Opened DB Script
+Mon, 30 Nov 2020 10:51:53 +0100 Fill Data Phase 2 - Read DB script
+Mon, 30 Nov 2020 10:51:53 +0100 Fill Data Phase 2 - There are 204 Statements in the DB script
+Mon, 30 Nov 2020 10:52:11 +0100 MySQL Event Error:No database selected
+Mon, 30 Nov 2020 10:52:11 +0100 Fill Data Phase 1 - Connected to the DB Server
+Mon, 30 Nov 2020 10:52:12 +0100 Fill Data Phase 2 - Done
+Mon, 30 Nov 2020 10:52:13 +0100 Fill Data Phase 2 - No Errors
+Mon, 30 Nov 2020 10:52:15 +0100 Create DB user - Starting
+Mon, 30 Nov 2020 10:52:15 +0100 Create DB user - Done
+Mon, 30 Nov 2020 10:52:15 +0100 Create DB user - No Errors
+Mon, 30 Nov 2020 10:52:17 +0100 Create OrangeHRM user - Starting
+Mon, 30 Nov 2020 10:52:18 +0100 Create OrangeHRM user - Done
+Mon, 30 Nov 2020 10:52:18 +0100 Create OrangeHRM user - No Errors
+Mon, 30 Nov 2020 10:52:20 +0100 Write Conf - Starting
+Mon, 30 Nov 2020 10:52:20 +0100 Write Conf - Done
+Mon, 30 Nov 2020 10:52:20 +0100 Write Conf - No Errors
