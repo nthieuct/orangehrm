@@ -1,0 +1,72 @@
+[30-Nov-2020 11:11:44 Europe/Paris] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in C:\wamp\www\orangehrm\symfony\lib\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php on line 5
+[30-Nov-2020 11:11:44 Europe/Paris] PHP Stack trace:
+[30-Nov-2020 11:11:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\orangehrm\symfony\web\index.php:0
+[30-Nov-2020 11:11:44 Europe/Paris] PHP   2. require_once() C:\wamp\www\orangehrm\symfony\web\index.php:19
+[30-Nov-2020 11:11:44 Europe/Paris] PHP   3. require_once() C:\wamp\www\orangehrm\symfony\config\ProjectConfiguration.class.php:6
+[30-Nov-2020 11:11:44 Europe/Paris] PHP   4. ComposerAutoloaderInitc69022a59a343d96a741973d22cc9b2f::getLoader() C:\wamp\www\orangehrm\symfony\lib\vendor\autoload.php:7
+[30-Nov-2020 11:11:44 Europe/Paris] PHP   5. composerRequirec69022a59a343d96a741973d22cc9b2f() C:\wamp\www\orangehrm\symfony\lib\vendor\composer\autoload_real.php:59
+[30-Nov-2020 11:11:52 Europe/Paris] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in C:\wamp\www\orangehrm\symfony\lib\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php on line 5
+[30-Nov-2020 11:11:52 Europe/Paris] PHP Stack trace:
+[30-Nov-2020 11:11:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\orangehrm\symfony\web\index.php:0
+[30-Nov-2020 11:11:52 Europe/Paris] PHP   2. require_once() C:\wamp\www\orangehrm\symfony\web\index.php:19
+[30-Nov-2020 11:11:52 Europe/Paris] PHP   3. require_once() C:\wamp\www\orangehrm\symfony\config\ProjectConfiguration.class.php:6
+[30-Nov-2020 11:11:52 Europe/Paris] PHP   4. ComposerAutoloaderInitc69022a59a343d96a741973d22cc9b2f::getLoader() C:\wamp\www\orangehrm\symfony\lib\vendor\autoload.php:7
+[30-Nov-2020 11:11:52 Europe/Paris] PHP   5. composerRequirec69022a59a343d96a741973d22cc9b2f() C:\wamp\www\orangehrm\symfony\lib\vendor\composer\autoload_real.php:59
+[30-Nov-2020 11:11:52 Europe/Paris] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in C:\wamp\www\orangehrm\symfony\lib\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php on line 5
+[30-Nov-2020 11:11:52 Europe/Paris] PHP Stack trace:
+[30-Nov-2020 11:11:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\orangehrm\symfony\web\index.php:0
+[30-Nov-2020 11:11:52 Europe/Paris] PHP   2. require_once() C:\wamp\www\orangehrm\symfony\web\index.php:19
+[30-Nov-2020 11:11:52 Europe/Paris] PHP   3. require_once() C:\wamp\www\orangehrm\symfony\config\ProjectConfiguration.class.php:6
+[30-Nov-2020 11:11:52 Europe/Paris] PHP   4. ComposerAutoloaderInitc69022a59a343d96a741973d22cc9b2f::getLoader() C:\wamp\www\orangehrm\symfony\lib\vendor\autoload.php:7
+[30-Nov-2020 11:11:52 Europe/Paris] PHP   5. composerRequirec69022a59a343d96a741973d22cc9b2f() C:\wamp\www\orangehrm\symfony\lib\vendor\composer\autoload_real.php:59
+[30-Nov-2020 11:11:54 Europe/Paris] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in C:\wamp\www\orangehrm\symfony\lib\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php on line 5
+[30-Nov-2020 11:11:54 Europe/Paris] PHP Stack trace:
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\orangehrm\symfony\web\index.php:0
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   2. require_once() C:\wamp\www\orangehrm\symfony\web\index.php:19
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   3. require_once() C:\wamp\www\orangehrm\symfony\config\ProjectConfiguration.class.php:6
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   4. ComposerAutoloaderInitc69022a59a343d96a741973d22cc9b2f::getLoader() C:\wamp\www\orangehrm\symfony\lib\vendor\autoload.php:7
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   5. composerRequirec69022a59a343d96a741973d22cc9b2f() C:\wamp\www\orangehrm\symfony\lib\vendor\composer\autoload_real.php:59
+[30-Nov-2020 11:11:54 Europe/Paris] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in C:\wamp\www\orangehrm\symfony\lib\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php on line 5
+[30-Nov-2020 11:11:54 Europe/Paris] PHP Stack trace:
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\orangehrm\symfony\web\index.php:0
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   2. require_once() C:\wamp\www\orangehrm\symfony\web\index.php:19
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   3. require_once() C:\wamp\www\orangehrm\symfony\config\ProjectConfiguration.class.php:6
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   4. ComposerAutoloaderInitc69022a59a343d96a741973d22cc9b2f::getLoader() C:\wamp\www\orangehrm\symfony\lib\vendor\autoload.php:7
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   5. composerRequirec69022a59a343d96a741973d22cc9b2f() C:\wamp\www\orangehrm\symfony\lib\vendor\composer\autoload_real.php:59
+[30-Nov-2020 11:11:54 Europe/Paris] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in C:\wamp\www\orangehrm\symfony\lib\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php on line 5
+[30-Nov-2020 11:11:54 Europe/Paris] PHP Stack trace:
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\orangehrm\symfony\web\index.php:0
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   2. require_once() C:\wamp\www\orangehrm\symfony\web\index.php:19
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   3. require_once() C:\wamp\www\orangehrm\symfony\config\ProjectConfiguration.class.php:6
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   4. ComposerAutoloaderInitc69022a59a343d96a741973d22cc9b2f::getLoader() C:\wamp\www\orangehrm\symfony\lib\vendor\autoload.php:7
+[30-Nov-2020 11:11:54 Europe/Paris] PHP   5. composerRequirec69022a59a343d96a741973d22cc9b2f() C:\wamp\www\orangehrm\symfony\lib\vendor\composer\autoload_real.php:59
+[30-Nov-2020 11:11:55 Europe/Paris] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in C:\wamp\www\orangehrm\symfony\lib\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php on line 5
+[30-Nov-2020 11:11:55 Europe/Paris] PHP Stack trace:
+[30-Nov-2020 11:11:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\orangehrm\symfony\web\index.php:0
+[30-Nov-2020 11:11:55 Europe/Paris] PHP   2. require_once() C:\wamp\www\orangehrm\symfony\web\index.php:19
+[30-Nov-2020 11:11:55 Europe/Paris] PHP   3. require_once() C:\wamp\www\orangehrm\symfony\config\ProjectConfiguration.class.php:6
+[30-Nov-2020 11:11:55 Europe/Paris] PHP   4. ComposerAutoloaderInitc69022a59a343d96a741973d22cc9b2f::getLoader() C:\wamp\www\orangehrm\symfony\lib\vendor\autoload.php:7
+[30-Nov-2020 11:11:55 Europe/Paris] PHP   5. composerRequirec69022a59a343d96a741973d22cc9b2f() C:\wamp\www\orangehrm\symfony\lib\vendor\composer\autoload_real.php:59
+[30-Nov-2020 11:11:56 Europe/Paris] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in C:\wamp\www\orangehrm\symfony\lib\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php on line 5
+[30-Nov-2020 11:11:56 Europe/Paris] PHP Stack trace:
+[30-Nov-2020 11:11:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\orangehrm\symfony\web\index.php:0
+[30-Nov-2020 11:11:56 Europe/Paris] PHP   2. require_once() C:\wamp\www\orangehrm\symfony\web\index.php:19
+[30-Nov-2020 11:11:56 Europe/Paris] PHP   3. require_once() C:\wamp\www\orangehrm\symfony\config\ProjectConfiguration.class.php:6
+[30-Nov-2020 11:11:56 Europe/Paris] PHP   4. ComposerAutoloaderInitc69022a59a343d96a741973d22cc9b2f::getLoader() C:\wamp\www\orangehrm\symfony\lib\vendor\autoload.php:7
+[30-Nov-2020 11:11:56 Europe/Paris] PHP   5. composerRequirec69022a59a343d96a741973d22cc9b2f() C:\wamp\www\orangehrm\symfony\lib\vendor\composer\autoload_real.php:59
+[30-Nov-2020 11:11:57 Europe/Paris] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in C:\wamp\www\orangehrm\symfony\lib\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php on line 5
+[30-Nov-2020 11:11:57 Europe/Paris] PHP Stack trace:
+[30-Nov-2020 11:11:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\orangehrm\symfony\web\index.php:0
+[30-Nov-2020 11:11:57 Europe/Paris] PHP   2. require_once() C:\wamp\www\orangehrm\symfony\web\index.php:19
+[30-Nov-2020 11:11:57 Europe/Paris] PHP   3. require_once() C:\wamp\www\orangehrm\symfony\config\ProjectConfiguration.class.php:6
+[30-Nov-2020 11:11:57 Europe/Paris] PHP   4. ComposerAutoloaderInitc69022a59a343d96a741973d22cc9b2f::getLoader() C:\wamp\www\orangehrm\symfony\lib\vendor\autoload.php:7
+[30-Nov-2020 11:11:57 Europe/Paris] PHP   5. composerRequirec69022a59a343d96a741973d22cc9b2f() C:\wamp\www\orangehrm\symfony\lib\vendor\composer\autoload_real.php:59
+[30-Nov-2020 11:11:57 Europe/Paris] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in C:\wamp\www\orangehrm\symfony\lib\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php on line 5
+[30-Nov-2020 11:11:57 Europe/Paris] PHP Stack trace:
+[30-Nov-2020 11:11:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\orangehrm\symfony\web\index.php:0
+[30-Nov-2020 11:11:57 Europe/Paris] PHP   2. require_once() C:\wamp\www\orangehrm\symfony\web\index.php:19
+[30-Nov-2020 11:11:57 Europe/Paris] PHP   3. require_once() C:\wamp\www\orangehrm\symfony\config\ProjectConfiguration.class.php:6
+[30-Nov-2020 11:11:57 Europe/Paris] PHP   4. ComposerAutoloaderInitc69022a59a343d96a741973d22cc9b2f::getLoader() C:\wamp\www\orangehrm\symfony\lib\vendor\autoload.php:7
+[30-Nov-2020 11:11:57 Europe/Paris] PHP   5. composerRequirec69022a59a343d96a741973d22cc9b2f() C:\wamp\www\orangehrm\symfony\lib\vendor\composer\autoload_real.php:59
+[30-Nov-2020 15:04:26 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'E:/XAMPP/htdocs/hrm/symfony/plugins/orangehrmLeavePlugin/lib/event/LeaveEvents.php' (include_path='D:\CaoHoc\PMNM\xampp\php\PEAR') in D:\CaoHoc\PMNM\xampp\htdocs\orangehrm\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php on line 104
+[30-Nov-2020 15:04:31 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'E:/XAMPP/htdocs/hrm/symfony/plugins/orangehrmLeavePlugin/lib/event/LeaveEvents.php' (include_path='D:\CaoHoc\PMNM\xampp\php\PEAR') in D:\CaoHoc\PMNM\xampp\htdocs\orangehrm\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php on line 104
