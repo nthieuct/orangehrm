@@ -79,7 +79,8 @@ textarea {
 	text-decoration:underline;
 }
 #help {
-	color:#f28c38;
+	/*color:#f28c38;*/
+	color: #1667b0;
 	background: url(../images/help-down.png) no-repeat center right;
 	padding:2px 15px 1px 1px;
 	text-decoration:none;
@@ -289,30 +290,36 @@ textarea {
 	color:#fff;
 }
 .menu > ul > li.current > a {
-	background:#f28c38;
+	/* background:#f28c38; */
+	background: #1667b0;
 	color:#fff;
 }
 .menu > ul > li.current > a b {
-	background:#f28c38;
+	/* background:#f28c38; */
+	background: #1667b0;
 }
 .menu > ul > li.current > ul {
 	left:0;
 	opacity:1;
 }
 .menu > ul:hover > li.current > a {
-	background:#f28c38;
+	/* background:#f28c38; */
+	background: #1667b0;
 }
 .menu > ul:hover > li.current > a b {
-	background:#f28c38;
+	/* background:#f28c38; */
+	background: #1667b0;
 }
 .menu > ul:hover > li.current > ul {
 	left:-9999px;
 }
 .menu > ul:hover > li.current:hover > a {
-	background:#f28c38;
+	/* background:#f28c38; */
+	background: #1667b0;
 }
 .menu > ul:hover > li.current:hover > a b {
-	background:#f28c38;
+	/* background:#f28c38; */
+	background: #1667b0;
 }
 .menu > ul:hover > li.current:hover > ul {
 	left:0;
@@ -935,7 +942,8 @@ table.table {
     border-collapse:collapse;
 }
 table.table th {
-	background:#f28c38;
+	/* background:#f28c38; */
+	background: #1667b0;
 	color:#fff;
 	padding:7px;
 	border:1px solid #fff;
@@ -1311,7 +1319,8 @@ ul.error_list li { /* For Symfony form errors. Used in PIM Define Reports */
 
 .modal-header {
   padding: 12px 15px;
-  background-color:#f28c38;
+  /* background-color:#f28c38; */
+  background-color: #1667b0;
   -moz-border-radius-topleft: 4px;
 -webkit-border-top-left-radius: 4px;
  border-top-left-radius: 4px;
@@ -1556,7 +1565,8 @@ div#timesheet table.table tbody tr td.comments, div#edit-timesheet table.table t
 #sidebar #sidenav {
 	margin:19px 0 0 0;
 	padding:7px;
-	background: #f28c38 url(../images/sidebar-nav-bg.png) repeat-y top right;
+	/*background: #f28c38 url(../images/sidebar-nav-bg.png) repeat-y top right;*/
+	background: #1667b0 url(../images/sidebar-nav-bg.png) repeat-y top right;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -1571,10 +1581,12 @@ div#timesheet table.table tbody tr td.comments, div#edit-timesheet table.table t
 	width:174px;
 	text-decoration:none;
 	margin-bottom:5px;
-	border-bottom:1px solid #f19a52;
+	/*border-bottom:1px solid #f19a52;*/
+	border-bottom:1px solid #99ccff;
 }
 #sidebar #sidenav a:hover {
-	background-color:#ce6d1d;
+	/* background-color:#ce6d1d; */
+	background-color: #4da6ff;
 }
 
 #sidebar #sidenav a.disabled {
@@ -1725,7 +1737,8 @@ div.personalDetails {
 }
 
 #MP_link.current {
-	background-color: #f28c38 !important;
+	/*background-color: #f28c38 !important;*/
+	background-color: #1667b0 !important;
 	color: white !important;
 }
 
@@ -1735,7 +1748,8 @@ div.personalDetails {
 	left: 43%;
 	border: 16px solid #f3f3f3;
 	border-radius: 50%;
-	border-top: 16px solid #f28c38 !important;
+	/*border-top: 16px solid #f28c38 !important;*/
+	border-top: 16px solid #1667b0 !important;
 	width: 150px;
 	height: 150px;
 	-webkit-animation: spin 2s linear infinite; /* Safari */
@@ -1755,7 +1769,8 @@ div.personalDetails {
 
 /* ================ Panel styles: Begin ================ */
 .panel_resizable {
-	border: #F28C38 2px solid;
+	/*border: #F28C38 2px solid;*/
+	border: #1667b0 2px solid;
 	overflow: hidden !important;
 	margin: 0;
 	/*  padding: 10px;*/
@@ -1764,7 +1779,8 @@ div.personalDetails {
 
 /* ================ JQuery auto complete styles: Begin ================ */
 .ac_over {
-	background-color: #F28C38;
+	/*background-color: #F28C38;*/
+	background-color: #1667b0;
 	color: white;
 }
 /* ================ JQuery auto complete styles: End ================ */

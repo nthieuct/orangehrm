@@ -33,11 +33,13 @@ input:not([type="image"]) {
 }
 
 stop.inner {
-    stop-color: #f0d47b;/*$login-logo-inner-color;*/
+    /*stop-color: #f0d47b;/*$login-logo-inner-color;*/
+    stop-color: #99ccff;
 }
 
 stop.outer {
-    stop-color: #c08117; /*$login-logo-outer-color;*/
+    /*stop-color: #c08117; /*$login-logo-outer-color;*/
+    stop-color: #006699;
 }
 
 body {

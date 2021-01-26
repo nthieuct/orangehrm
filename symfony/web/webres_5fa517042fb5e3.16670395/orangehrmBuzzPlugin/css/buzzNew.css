@@ -111,7 +111,8 @@
 }
 
 .tabSelected a{
-    color: #F07C00;
+    /* color: #F07C00; */
+    color: #1667b0;
 }
 
 #status_icon, #img_upld_icon, #vid_upld_icon{

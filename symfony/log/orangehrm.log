@@ -70,3 +70,12 @@
 [30-Nov-2020 11:11:57 Europe/Paris] PHP   5. composerRequirec69022a59a343d96a741973d22cc9b2f() C:\wamp\www\orangehrm\symfony\lib\vendor\composer\autoload_real.php:59
 [30-Nov-2020 15:04:26 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'E:/XAMPP/htdocs/hrm/symfony/plugins/orangehrmLeavePlugin/lib/event/LeaveEvents.php' (include_path='D:\CaoHoc\PMNM\xampp\php\PEAR') in D:\CaoHoc\PMNM\xampp\htdocs\orangehrm\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php on line 104
 [30-Nov-2020 15:04:31 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'E:/XAMPP/htdocs/hrm/symfony/plugins/orangehrmLeavePlugin/lib/event/LeaveEvents.php' (include_path='D:\CaoHoc\PMNM\xampp\php\PEAR') in D:\CaoHoc\PMNM\xampp\htdocs\orangehrm\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php on line 104
+[26-Jan-2021 08:27:30 Europe/Berlin] Empty module and/or action after parsing the URL "/webres_5fa517042fb5e3.16670395/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[26-Jan-2021 09:39:23 Europe/Berlin] Action "training/viewTestMessage" does not exist.
+[26-Jan-2021 09:39:30 Europe/Berlin] Action "training/viewTestMessage" does not exist.
+[26-Jan-2021 09:39:37 Europe/Berlin] Empty module and/or action after parsing the URL "/webres_5fa517042fb5e3.16670395/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[26-Jan-2021 09:41:14 Europe/Berlin] Action "training/viewTestMessage" does not exist.
+[26-Jan-2021 09:47:42 Europe/Berlin] Action "training/viewTestMessage" does not exist.
+[26-Jan-2021 09:48:05 Europe/Berlin] Action "training/viewTestMessage" does not exist.
+[26-Jan-2021 09:48:21 Europe/Berlin] Action "training/viewTestMessage" does not exist.
+[26-Jan-2021 10:46:45 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in E:\XAMPP\htdocs\orangehrm\symfony\lib\vendor\lexpress\doctrine1\lib\Doctrine\Transaction.php on line 426

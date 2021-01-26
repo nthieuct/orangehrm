@@ -9,5 +9,5 @@ $prodName = 'OrangeHRM';
 $copyrightYear = date('Y');
 
 ?>
-<?php echo $prodName . ' ' . $version;?><br/>
-&copy; 2005 - <?php echo $copyrightYear;?> <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.
+<?php echo $prodName . ' ' . $version;?><br/><br/>
+&copy; 2020 - <?php echo $copyrightYear;?> <a href="http://camau.vnpt.vn/" target="_blank">VNPT Cà Mau</a>

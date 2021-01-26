@@ -1714,7 +1714,7 @@
       </trans-unit>
       <trans-unit id="428">
         <source>Job Categories</source>
-        <target>Công việc danh mục</target>
+        <target>Đơn vị công tác</target>
       </trans-unit>
       <trans-unit id="429">
         <source>Job Category</source>
@@ -1722,7 +1722,7 @@
       </trans-unit>
       <trans-unit id="430">
         <source>Job Specification</source>
-        <target>Công việc kỹ thuật</target>
+        <target>Mô tả công việc</target>
       </trans-unit>
       <trans-unit id="431">
         <source>Job Title</source>
@@ -1730,7 +1730,7 @@
       </trans-unit>
       <trans-unit id="432">
         <source>Job Titles</source>
-        <target>Công việc trong tựa đề</target>
+        <target>Vị trí công việc</target>
       </trans-unit>
       <trans-unit id="433">
         <source>Joined Date</source>
@@ -2698,31 +2698,31 @@
       </trans-unit>
       <trans-unit id="674">
         <source>Paraguayan</source>
-        <target>Người Paraguay</target>
+        <target>Người Paraguay</target>
       </trans-unit>
       <trans-unit id="675">
         <source>Part Time Contract</source>
-        <target>Bán thời gian hợp đồng</target>
+        <target>Hợp đồng Bán thời gian</target>
       </trans-unit>
       <trans-unit id="676">
         <source>Part Time Internship</source>
-        <target>Bán thời gian Thực tập</target>
+        <target>Thực tập Bán thời gian</target>
       </trans-unit>
       <trans-unit id="677">
         <source>Part Time Permanent</source>
-        <target>Bán thời gian chính thức</target>
+        <target>Chính thức Bán thời gian</target>
       </trans-unit>
       <trans-unit id="678">
         <source>Past Employee</source>
-        <target>Quá khứ của nhân viên</target>
+        <target>Nhân viên cũ</target>
       </trans-unit>
       <trans-unit id="679">
         <source>Past Employees Only</source>
-        <target>Qua nhân viên Chỉ</target>
+        <target>Chỉ những nhân viên cũ</target>
       </trans-unit>
       <trans-unit id="680">
         <source>Pay Frequency</source>
-        <target>Trả Tần số</target>
+        <target>Tần suất thanh toán</target>
       </trans-unit>
       <trans-unit id="681">
         <source>Pay Grade</source>
@@ -3858,15 +3858,15 @@
       </trans-unit>
       <trans-unit id="964">
         <source>Work Shifts</source>
-        <target>Công việc dịch chuyển</target>
+        <target>Ca làm việc</target>
       </trans-unit>
       <trans-unit id="965">
         <source>Work Telephone</source>
-        <target>Công việc Điện thoại</target>
+        <target>SĐT cơ quan</target>
       </trans-unit>
       <trans-unit id="966">
         <source>Work Week</source>
-        <target>Work Week</target>
+        <target>Tuần làm việc</target>
       </trans-unit>
       <trans-unit id="967">
         <source>Writing</source>
@@ -6422,7 +6422,7 @@
       </trans-unit>
       <trans-unit id="1605">
         <source>Leave Balance</source>
-        <target>Để cân bằng</target>
+        <target>Số dư ngày nghỉ</target>
       </trans-unit>
       <trans-unit id="1606">
         <source>Leave Comment</source>
@@ -6438,11 +6438,11 @@
       </trans-unit>
       <trans-unit id="1609">
         <source>Leave Request</source>
-        <target>Để lại yêu cầu</target>
+        <target>Yêu cầu nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1610">
         <source>Leave Scheduled</source>
-        <target>Để lại theo lịch trình</target>
+        <target>Lịch nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1611">
         <source>Leave Taken</source>
@@ -6458,7 +6458,7 @@
       </trans-unit>
       <trans-unit id="1614">
         <source>My Leave Details</source>
-        <target>Chi tiết của tôi Leave</target>
+        <target>Chi tiết nghỉ phép của tôi</target>
       </trans-unit>
       <trans-unit id="1615">
         <source>My Leave List</source>
