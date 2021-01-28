@@ -49,6 +49,7 @@ class ModuleForm extends BaseForm {
             'directory' => new sfWidgetFormInputCheckbox(array(), array('class' => 'checkbox', 'value' => 'on')),
             'maintenance' => new sfWidgetFormInputCheckbox(array(), array('class' => 'checkbox', 'value' => 'on')),
             'mobile' => new sfWidgetFormInputCheckbox(array(), array('class' => 'checkbox', 'value' => 'on')),
+			'training' => new sfWidgetFormInputCheckbox(array(), array('class' => 'checkbox', 'value' => 'on')),
         ));        
         
         $this->setValidators(array(
@@ -62,6 +63,7 @@ class ModuleForm extends BaseForm {
             'directory' => new sfValidatorPass(),
             'maintenance' => new sfValidatorPass(),
             'mobile' => new sfValidatorPass(),
+			'training' => new sfValidatorPass(),
         ));
         
         $this->setDefaults($this->_getDefaultValues());
@@ -73,7 +75,7 @@ class ModuleForm extends BaseForm {
     
     protected function _getDefaultValues() {
         
-        $modules = array('admin', 'pim', 'leave', 'time', 'recruitment', 'performance', 'directory', 'maintenance');
+        $modules = array('admin', 'pim', 'leave', 'time', 'recruitment', 'performance', 'directory', 'maintenance', 'training');
         
         $moduleService = $this->getModuleService();
         $disabledModules = $moduleService->getDisabledModuleList();

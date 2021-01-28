@@ -85,6 +85,10 @@
                         <?php echo $form['mobile']->renderLabel(__('Enable Mobile')); ?>
                         <?php echo $form['mobile']->render(); ?>
                     </li>
+					<li class="checkbox">
+                        <?php echo $form['training']->renderLabel(__('Enable Training module')); ?>
+                        <?php echo $form['training']->render(); ?>
+                    </li>
                     <li class="required">
                         <em>*</em> <?php echo __(CommonMessages::REQUIRED_FIELD); ?>
                     </li>
