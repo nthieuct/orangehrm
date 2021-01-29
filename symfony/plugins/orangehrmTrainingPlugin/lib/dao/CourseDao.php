@@ -68,7 +68,9 @@ class CourseDao extends BaseDao {
 
 		$query = "insert into hieu_course values (null, '".$coursename."', '".$startdate."', '".$enddate."', '".$place."', '".$organization."');";
 		$result = mysqli_query($conn, $query);
-		return mysqli_num_rows($result);
+		if (mysqli_affected_rows($conn) > 0)
+			return true;
+		return false;
     }
 	
 	public function updateCourse($courseid, $coursename, $startdate, $enddate, $place, $organization) {
@@ -84,7 +86,9 @@ class CourseDao extends BaseDao {
 
 		$query = "update hieu_course set course_name = '".$coursename."', start_date = '".$startdate."', end_date = '".$enddate."', place = '".$place."', organization = '".$organization."' where course_id = ".$courseid.";";
 		$result = mysqli_query($conn, $query);
-		return mysqli_num_rows($result);
+		if (mysqli_affected_rows($conn) > 0)
+			return true;
+		return false;
     }
 	
 	public function deleteCourse($id) {
@@ -100,7 +104,9 @@ class CourseDao extends BaseDao {
 
 		$query = "delete from hieu_course where course_id = ".$id.";";
 		$result = mysqli_query($conn, $query);
-		return mysqli_num_rows($result);
+		if (mysqli_affected_rows($conn) > 0)
+			return true;
+		return false;
     }
 }
 ?>

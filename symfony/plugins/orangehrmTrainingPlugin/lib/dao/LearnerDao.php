@@ -96,7 +96,9 @@ class LearnerDao extends BaseDao {
 
 		$query = "insert into hieu_course_detail values (".$courseid.", ".$empnumber.", '".$result."', '".$note."');";
 		$result = mysqli_query($conn, $query);
-		return mysqli_num_rows($result);
+		if (mysqli_affected_rows($conn) > 0)
+			return true;
+		return false;
     }
 	
 	public function updateLearner($courseid, $empnumber, $result, $note) {
@@ -112,7 +114,9 @@ class LearnerDao extends BaseDao {
 
 		$query = "update hieu_course_detail set result = '".$result."', note = '".$note."' where course_id = ".$courseid." and emp_number = ".$empnumber.";";
 		$result = mysqli_query($conn, $query);
-		return mysqli_num_rows($result);
+		if (mysqli_affected_rows($conn) > 0)
+			return true;
+		return false;
     }
 	
 	public function deleteLearner($courseid, $empnumber) {
@@ -128,7 +132,9 @@ class LearnerDao extends BaseDao {
 
 		$query = "delete from hieu_course_detail where course_id = ".$courseid." and emp_number = ".$empnumber.";";
 		$result = mysqli_query($conn, $query);
-		return mysqli_num_rows($result);
+		if (mysqli_affected_rows($conn) > 0)
+			return true;
+		return false;
     }
 }
 ?>

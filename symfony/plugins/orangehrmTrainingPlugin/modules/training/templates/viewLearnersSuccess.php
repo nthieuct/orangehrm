@@ -11,20 +11,20 @@
 <?php
 if (isset($_POST['txtcourseid'])) {
 	if ($_POST['txtcourseid'] == '') {
-		if ($learner->addLearner($_POST['cboCourse'], $_POST['cboEmp'], $_POST['txtresult'], $_POST['txtnote']) == 0) {
+		if (!$learner->addLearner($_POST['cboCourse'], $_POST['cboEmp'], $_POST['txtresult'], $_POST['txtnote'])) {
 		?>
 			<script type="text/javascript">
-				//$('#modal-body').html('<p>Không thể thêm mới</p>');
-				//$('#alertModal').modal('show');
+				$('#modal-body').html('<p>Không thể thêm mới</p>');
+				$('#alertModal').modal('show');
 			</script>
 		<?php
 		}
 	} else {
-		if ($learner->updateLearner($_POST['txtcourseid'], $_POST['txtempnumber'], $_POST['txtresult'], $_POST['txtnote']) == 0) {
+		if (!$learner->updateLearner($_POST['txtcourseid'], $_POST['txtempnumber'], $_POST['txtresult'], $_POST['txtnote'])) {
 		?>
 			<script type="text/javascript">
-				//$('#modal-body').html('<p>Không thể cập nhật</p>');
-				//$('#alertModal').modal('show');
+				$('#modal-body').html('<p>Không thể cập nhật</p>');
+				$('#alertModal').modal('show');
 			</script>
 		<?php
 		}
@@ -32,11 +32,11 @@ if (isset($_POST['txtcourseid'])) {
 }
 
 if (isset($_POST['txtempnumberdel'])) {
-	if ($learner->deleteLearner($_POST['txtcourseiddel'], $_POST['txtempnumberdel']) == 0) {
+	if (!$learner->deleteLearner($_POST['txtcourseiddel'], $_POST['txtempnumberdel'])) {
 	?>
 		<script type="text/javascript">
-			//$('#modal-body').html('<p>Không thể xóa</p>');
-			//$('#alertModal').modal('show');
+			$('#modal-body').html('<p>Không thể xóa</p>');
+			$('#alertModal').modal('show');
 		</script>
 	<?php
 	}
