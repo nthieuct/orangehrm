@@ -24,7 +24,7 @@ $loginImage = sfConfig::get('sf_web_dir') . DIRECTORY_SEPARATOR . sfConfig::get(
                 <?php
                     echo $form->renderHiddenFields(); // rendering csrf_token
                 ?>
-                <div id="logInPanelHeading"><?php echo __('LOGIN Panel'); ?></div>
+                <div id="logInPanelHeading"><?php echo __('LOGIN VNPT HRM'); ?></div>
 
                 <div id="divUsername" class="textInputContainer">
                     <?php echo $form['Username']->render(); ?>

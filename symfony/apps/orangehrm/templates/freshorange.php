@@ -13,19 +13,19 @@ $subscribed = $sf_user->isSubscribed();
 
             <div id="branding">
                 <a href="http://camau.vnpt.vn/" target="_blank"><img src="<?php echo theme_path('images/logo.png')?>" width="200" height="70" alt="VNPT-HRM"/></a>
-                <a href="#" id="welcome" class="panelTrigger"><?php echo __("Welcome %username%", array("%username%" => $sf_user->getAttribute('auth.firstName'))); ?></a>
+                <a href="#" id="welcome" class="panelTrigger"><?php echo __("Xin chào %username%", array("%username%" => $sf_user->getAttribute('auth.firstName'))); ?></a>
                 <?php include_component('buzz', 'viewNotification'); ?>
                 <?php include_component('help', 'viewHelp'); ?>
                 <?php if(!$subscribed) { ?>
                     <div id="MP_btn">
-                        <input id="Subscriber_link" type="button" class="button" value="<?php echo __('Subscribe'); ?>"/>
+                        <input style="display:none" id="Subscriber_link" type="button" class="button" value="<?php echo __('Subscribe'); ?>"/>
                     </div>
                     <div id="mp_btn_inner">
-                        <input id="MP_link" type="button" class="button" value="<?php echo __('Marketplace'); ?>"/>
+                        <input style="display:none" id="MP_link" type="button" class="button" value="<?php echo __('Marketplace'); ?>"/>
                     </div>
                 <?php } else {?>
                     <div id="MP_btn">
-                        <input id="MP_link" type="button" class="button" value="<?php echo __('Marketplace'); ?>"/>
+                        <input style="display:none" id="MP_link" type="button" class="button" value="<?php echo __('Marketplace'); ?>"/>
                     </div>
                 <?php } ?>
                 <script>

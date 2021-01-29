@@ -148,7 +148,7 @@ $imagePath = theme_path("images/login");
         <input type="hidden" name="redirect_uri" value="<?php echo $redirect_uri; ?>"/>
         <input type="hidden" name="state" value="<?php echo $state; ?>"/>
         <input type="hidden" name="hdnUserTimeZoneOffset" id="hdnUserTimeZoneOffset" value="0" />
-        <div id="logInPanelHeading"><?php echo __('LOGIN Panel'); ?></div>
+        <div id="logInPanelHeading"><?php echo __('LOGIN VNPT HRM'); ?></div>
 
         <div id="divUsername" class="textInputContainer">
             <?php echo $form['Username']->render(); ?>

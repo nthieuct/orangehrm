@@ -21,7 +21,7 @@ use_stylesheet(plugin_web_path('orangehrmHelpPlugin', 'css/viewHelpComponent'));
 ?>
 
 <!--Help icon-->
-<a class="help-icon-div" href="<?php echo url_for('help/index'); ?>">
+<a style="display:none" class="help-icon-div" href="<?php echo url_for('help/index'); ?>">
     <span class="fa-lg fa-layers fa-fw">
         <i class="far fa-question-circle help-icon"></i>
     </span>

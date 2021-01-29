@@ -530,7 +530,7 @@
       </trans-unit>
       <trans-unit id="132">
         <source>Candidates</source>
-        <target>Ứng cử viên</target>
+        <target>Ứng viên</target>
       </trans-unit>
       <trans-unit id="133">
         <source>Cape Verde</source>
@@ -882,15 +882,15 @@
       </trans-unit>
       <trans-unit id="220">
         <source>Direct</source>
-        <target>Chỉ đạo</target>
+        <target>Trực tiếp</target>
       </trans-unit>
       <trans-unit id="221">
         <source>Direct Deposit Account Number</source>
-        <target>Số tài khoản gửi tiền trực tiếp</target>
+        <target>Số tài khoản tiền gửi trực tiếp</target>
       </trans-unit>
       <trans-unit id="222">
         <source>Direct Deposit Account Type</source>
-        <target>Loại tài khoản gửi tiền trực tiếp</target>
+        <target>Loại tài khoản tiền gửi trực tiếp</target>
       </trans-unit>
       <trans-unit id="223">
         <source>Direct Deposit Amount</source>
@@ -1038,19 +1038,19 @@
       </trans-unit>
       <trans-unit id="259">
         <source>Eligible Review Date</source>
-        <target>Ngày hội đủ điều kiện xét</target>
+        <target>Ngày nhận xét đủ điều kiện</target>
       </trans-unit>
       <trans-unit id="260">
         <source>Eligible Status</source>
-        <target>Đủ điều kiện Status</target>
+        <target>Trạng thái đủ điều kiện</target>
       </trans-unit>
       <trans-unit id="261">
         <source>Email Notifications</source>
-        <target>Email Thông báo</target>
+        <target>Thông báo Email</target>
       </trans-unit>
       <trans-unit id="262">
         <source>Emergency Contacts</source>
-        <target>Khẩn cấp Liên hệ</target>
+        <target>Liên hệ khẩn cấp</target>
       </trans-unit>
       <trans-unit id="263">
         <source>Emirian</source>
@@ -1062,39 +1062,39 @@
       </trans-unit>
       <trans-unit id="265">
         <source>Employee First Name</source>
-        <target>Nhân viên Tên</target>
+        <target>Tên</target>
       </trans-unit>
       <trans-unit id="266">
         <source>Employee Id</source>
-        <target>Nhân viên Id</target>
+        <target>Id nhân viên</target>
       </trans-unit>
       <trans-unit id="267">
         <source>Employee Last Name</source>
-        <target>Nhân viên Last Name</target>
+        <target>Họ</target>
       </trans-unit>
       <trans-unit id="268">
         <source>Employee List</source>
-        <target>Nhân viên Danh sách</target>
+        <target>Danh sách nhân viên</target>
       </trans-unit>
       <trans-unit id="269">
         <source>Employee Middle Name</source>
-        <target>Tên nhân viên Trung</target>
+        <target>Tên đệm</target>
       </trans-unit>
       <trans-unit id="270">
         <source>Employee Name</source>
-        <target>Tên người lao động</target>
+        <target>Họ Tên</target>
       </trans-unit>
       <trans-unit id="271">
         <source>Employee Records</source>
-        <target>Nhân viên hồ sơ</target>
+        <target>Hồ sơ nhân viên</target>
       </trans-unit>
       <trans-unit id="272">
         <source>Employee Reports</source>
-        <target>Nhân viên báo cáo</target>
+        <target>Báo cáo nhân viên</target>
       </trans-unit>
       <trans-unit id="273">
         <source>Employee Timesheets</source>
-        <target>Nhân viên timesheets</target>
+        <target>Thời gian biểu nhân viên</target>
       </trans-unit>
       <trans-unit id="274">
         <source>Employment Status</source>
@@ -1570,7 +1570,7 @@
       </trans-unit>
       <trans-unit id="392">
         <source>Include Past Employees</source>
-        <target>Bao gồm các nhân viên trong quá khứ</target>
+        <target>Bao gồm các nhân viên cũ</target>
       </trans-unit>
       <trans-unit id="393">
         <source>India</source>
@@ -2018,7 +2018,7 @@
       </trans-unit>
       <trans-unit id="504">
         <source>Location</source>
-        <target>Nơi</target>
+        <target>Địa điểm</target>
       </trans-unit>
       <trans-unit id="505">
         <source>Locations</source>
@@ -2347,7 +2347,7 @@
       </trans-unit>
       <trans-unit id="586">
         <source>My Timesheets</source>
-        <target>Timesheets của tôi</target>
+        <target>Thời gian biểu của tôi</target>
       </trans-unit>
       <trans-unit id="587">
         <source>Myanmar</source>
@@ -2603,11 +2603,11 @@
       </trans-unit>
       <trans-unit id="650">
         <source>Only Include Approved Timesheets</source>
-        <target>Chỉ Bao gồm timesheets được chấp thuận</target>
+        <target>Chỉ Bao gồm thời gian biểu được chấp thuận</target>
       </trans-unit>
       <trans-unit id="651">
         <source>Optional Fields</source>
-        <target>Tùy chọn Fields</target>
+        <target>Trường tùy chọn</target>
       </trans-unit>
       <trans-unit id="652">
         <source>or</source>
@@ -2631,11 +2631,11 @@
       </trans-unit>
       <trans-unit id="657">
         <source>Other Email</source>
-        <target>Khác Email</target>
+        <target>Email khác</target>
       </trans-unit>
       <trans-unit id="658">
         <source>Other Id</source>
-        <target>Khác Id</target>
+        <target>Id khác</target>
       </trans-unit>
       <trans-unit id="659">
         <source>Pakistan</source>
@@ -2727,11 +2727,11 @@
       </trans-unit>
       <trans-unit id="681">
         <source>Pay Grade</source>
-        <target>Trả Lớp</target>
+        <target>Mức lương</target>
       </trans-unit>
       <trans-unit id="682">
         <source>Pay Grades</source>
-        <target>Trả Lớp</target>
+        <target>Mức lương</target>
       </trans-unit>
       <trans-unit id="683">
         <source>Pennsylvania</source>
@@ -3019,7 +3019,7 @@
       </trans-unit>
       <trans-unit id="754">
         <source>Salary Component</source>
-        <target>Lương Hợp phần</target>
+        <target>Thành phần lương</target>
       </trans-unit>
       <trans-unit id="755">
         <source>Salvadoran</source>
@@ -3363,7 +3363,7 @@
       </trans-unit>
       <trans-unit id="840">
         <source>Subordinates</source>
-        <target>Nhân viên dưới quyền</target>
+        <target>Nhân viên cấp dưới</target>
       </trans-unit>
       <trans-unit id="841">
         <source>Subscribe</source>
@@ -3371,15 +3371,15 @@
       </trans-unit>
       <trans-unit id="842">
         <source>Subscription Amount</source>
-        <target>Thuê bao Số tiền</target>
+        <target>Số tiền đăng ký</target>
       </trans-unit>
       <trans-unit id="843">
         <source>Subscription Commence Date</source>
-        <target>Thuê bao Bắt ngày</target>
+        <target>Ngày bắt đầu đăng ký</target>
       </trans-unit>
       <trans-unit id="844">
         <source>Subscription Paid By</source>
-        <target>Thuê bao trả tiền</target>
+        <target>Đăng ký thanh toán bởi </target>
       </trans-unit>
       <trans-unit id="845">
         <source>Subscription Renewal Date</source>
@@ -3387,7 +3387,7 @@
       </trans-unit>
       <trans-unit id="846">
         <source>Successfully Added</source>
-        <target>Thành công Added</target>
+        <target>Thêm thành công</target>
       </trans-unit>
       <trans-unit id="847">
         <source>Successfully Deleted</source>
@@ -3427,15 +3427,15 @@
       </trans-unit>
       <trans-unit id="856">
         <source>Supervisor</source>
-        <target>Giám sát</target>
+        <target>Người quản lý</target>
       </trans-unit>
       <trans-unit id="857">
         <source>Supervisor Name</source>
-        <target>Tên người giám sát</target>
+        <target>Tên người quản lý</target>
       </trans-unit>
       <trans-unit id="858">
         <source>Supervisors</source>
-        <target>Giám sát</target>
+        <target>Người quản lý</target>
       </trans-unit>
       <trans-unit id="859">
         <source>Suriname</source>
@@ -3571,7 +3571,7 @@
       </trans-unit>
       <trans-unit id="892">
         <source>Timesheets</source>
-        <target>Timesheets</target>
+        <target>Thời gian biểu</target>
       </trans-unit>
       <trans-unit id="893">
         <source>Timor-Leste</source>
@@ -3579,15 +3579,15 @@
       </trans-unit>
       <trans-unit id="894">
         <source>To</source>
-        <target>Để</target>
+        <target>Đến</target>
       </trans-unit>
       <trans-unit id="895">
         <source>to</source>
-        <target>để</target>
+        <target>đến</target>
       </trans-unit>
       <trans-unit id="896">
         <source>To date should be after from date</source>
-        <target>Cho đến nay sau khi từ ngày</target>
+        <target>Ngày đến phải lớn hơn Từ ngày</target>
       </trans-unit>
       <trans-unit id="897">
         <source>Togo</source>
@@ -3667,11 +3667,11 @@
       </trans-unit>
       <trans-unit id="916">
         <source>Type</source>
-        <target>Loại</target>
+        <target>Nhập</target>
       </trans-unit>
       <trans-unit id="917">
         <source>Type Employee Id</source>
-        <target>Loại nhân viên Id</target>
+        <target>Nhập Id nhân viên</target>
       </trans-unit>
       <trans-unit id="918">
         <source>Type for hints</source>
@@ -3851,7 +3851,7 @@
       </trans-unit>
       <trans-unit id="962">
         <source>Work Email</source>
-        <target>Làm việc Email</target>
+        <target>Email công tác</target>
       </trans-unit>
       <trans-unit id="963">
         <source>Work Experience</source>
@@ -4223,11 +4223,11 @@
       </trans-unit>
       <trans-unit id="1055">
         <source>Address Street 1</source>
-        <target>Địa chỉ đường phố 1</target>
+        <target>Địa chỉ đường 1</target>
       </trans-unit>
       <trans-unit id="1056">
         <source>Address Street 2</source>
-        <target>Địa chỉ Đường số 2</target>
+        <target>Địa chỉ đường 2</target>
       </trans-unit>
       <trans-unit id="1057">
         <source>City</source>
@@ -4275,7 +4275,7 @@
       </trans-unit>
       <trans-unit id="1068">
         <source>Zip/Postal Code</source>
-        <target>Zip / Postal Code</target>
+        <target>Mã ZIP/ Mã bưu điện</target>
       </trans-unit>
       <trans-unit id="1069">
         <source>Approve</source>
@@ -4295,7 +4295,7 @@
       </trans-unit>
       <trans-unit id="1073">
         <source>Note</source>
-        <target>Ghi</target>
+        <target>Ghi chú</target>
       </trans-unit>
       <trans-unit id="1074">
         <source>Invalid Employee Name</source>
@@ -4375,7 +4375,7 @@
       </trans-unit>
       <trans-unit id="1093">
         <source>Resume</source>
-        <target>Tiếp tục</target>
+        <target>Sơ yếu lý lịch</target>
       </trans-unit>
       <trans-unit id="1094">
         <source>Select Action</source>
@@ -4411,7 +4411,7 @@
       </trans-unit>
       <trans-unit id="1102">
         <source>Notifications</source>
-        <target/>
+        <target>Thông báo</target>
       </trans-unit>
       <trans-unit id="1103">
         <source>Documents</source>
@@ -4423,7 +4423,7 @@
       </trans-unit>
       <trans-unit id="1105">
         <source>Forgot your password?</source>
-        <target/>
+        <target>Quên mật khẩu?</target>
       </trans-unit>
       <trans-unit id="1106">
         <source>Export To CSV</source>
@@ -4439,7 +4439,7 @@
       </trans-unit>
       <trans-unit id="1109">
         <source>Duration(Hours)</source>
-        <target/>
+        <target>Thời lượng (Giờ)</target>
       </trans-unit>
       <trans-unit id="1110">
         <source>Successfully Undeleted</source>
@@ -4479,55 +4479,55 @@
       </trans-unit>
       <trans-unit id="1119">
         <source>Start Month</source>
-        <target/>
+        <target>tháng bắt đầu</target>
       </trans-unit>
       <trans-unit id="1120">
         <source>Cancelled</source>
-        <target/>
+        <target>Hủy</target>
       </trans-unit>
       <trans-unit id="1121">
         <source>Add Leave Entitlement</source>
-        <target/>
+        <target>Thêm quyền lợi nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1122">
         <source>Add to Multiple Employees</source>
-        <target/>
+        <target>Thêm nhiều nhân viên</target>
       </trans-unit>
       <trans-unit id="1123">
         <source>Entitlement</source>
-        <target/>
+        <target>Quyền lợi</target>
       </trans-unit>
       <trans-unit id="1124">
         <source>Matches one employee</source>
-        <target/>
+        <target>Chọn một nhân viên</target>
       </trans-unit>
       <trans-unit id="1125">
         <source>Matches %count% employees</source>
-        <target/>
+        <target>Chọn %count% nhân viên</target>
       </trans-unit>
       <trans-unit id="1126">
         <source>No matching employees</source>
-        <target/>
+        <target>Không có nhân viên</target>
       </trans-unit>
       <trans-unit id="1127">
         <source>Entitlements</source>
-        <target/>
+        <target>Quyền lợi</target>
       </trans-unit>
       <trans-unit id="1128">
         <source>Add Entitlements</source>
-        <target/>
+        <target>Thêm quyền lợi</target>
       </trans-unit>
       <trans-unit id="1129">
         <source>Employee Entitlements</source>
-        <target/>
+        <target>Quyền lợi nhân viên</target>
       </trans-unit>
       <trans-unit id="1130">
         <source>Valid From</source>
-        <target/>
+        <target>Hiệu lực từ</target>
       </trans-unit>
       <trans-unit id="1131">
         <source>Valid To</source>
-        <target/>
+        <target>Hiệu lực đến</target>
       </trans-unit>
       <trans-unit id="1132">
         <source>No employees match the selected filters</source>
@@ -4555,11 +4555,11 @@
       </trans-unit>
       <trans-unit id="1138">
         <source>To date should be after From date</source>
-        <target>Cho đến nay nên được sau khi Từ ngày</target>
+        <target>Ngày đến phải lớn hơn Từ ngày</target>
       </trans-unit>
       <trans-unit id="1139">
         <source>My Entitlements</source>
-        <target/>
+        <target>Quyền lợi của tôi</target>
       </trans-unit>
       <trans-unit id="1140">
         <source>Should be a number with upto %count% decimal places</source>
@@ -4567,7 +4567,7 @@
       </trans-unit>
       <trans-unit id="1141">
         <source>Author</source>
-        <target/>
+        <target>Tác giả</target>
       </trans-unit>
       <trans-unit id="1142">
         <source>View Leave Request Comments</source>
@@ -4583,7 +4583,7 @@
       </trans-unit>
       <trans-unit id="1145">
         <source>Leave Date</source>
-        <target/>
+       <target>Ngày nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1146">
         <source>Available Balance</source>
@@ -4595,19 +4595,19 @@
       </trans-unit>
       <trans-unit id="1148">
         <source>Email Configuration</source>
-        <target/>
+        <target>Cấu hình Email</target>
       </trans-unit>
       <trans-unit id="1149">
         <source>Email Subscriptions</source>
-        <target/>
+        <target>Đăng ký Email</target>
       </trans-unit>
       <trans-unit id="1150">
         <source>You do not have permission to view this section</source>
-        <target/>
+        <target>Bạn không có quyền xem nội dung này</target>
       </trans-unit>
       <trans-unit id="1151">
         <source>Failed to Delete</source>
-        <target/>
+        <target>Xóa thất bại</target>
       </trans-unit>
       <trans-unit id="1152">
         <source>Validation Failed</source>
@@ -4623,27 +4623,27 @@
       </trans-unit>
       <trans-unit id="1155">
         <source>Trackers</source>
-        <target/>
+        <target>Theo dõi</target>
       </trans-unit>
       <trans-unit id="1156">
         <source>Employee Trackers</source>
-        <target/>
+        <target>Theo dõi nhân viên</target>
       </trans-unit>
       <trans-unit id="1157">
         <source>My Trackers</source>
-        <target/>
+        <target>Bản theo dõi hiệu suất của tôi</target>
       </trans-unit>
       <trans-unit id="1158">
         <source>Export to CSV</source>
-        <target/>
+        <target>Xuất ra file CSV</target>
       </trans-unit>
       <trans-unit id="1159">
         <source>Performance Trackers</source>
-        <target/>
+        <target>Theo dõi hiệu suất</target>
       </trans-unit>
       <trans-unit id="1160">
         <source>Manage Performance Tracker Log</source>
-        <target/>
+        <target>Quản lý log theo dõi hiệu suất</target>
       </trans-unit>
       <trans-unit id="1161">
         <source>log</source>
@@ -4651,23 +4651,23 @@
       </trans-unit>
       <trans-unit id="1162">
         <source>status</source>
-        <target/>
+        <target>trạng thái</target>
       </trans-unit>
       <trans-unit id="1163">
         <source>available Reviewers</source>
-        <target/>
+        <target></target>
       </trans-unit>
       <trans-unit id="1164">
         <source>added Reviewers</source>
-        <target/>
+        <target></target>
       </trans-unit>
       <trans-unit id="1165">
         <source>Add Performance Tracker</source>
-        <target/>
+        <target>Thêm theo dõi hiệu suất</target>
       </trans-unit>
       <trans-unit id="1166">
         <source>Performance Tracker Log Comment</source>
-        <target/>
+        <target>Bình luận log theo dõi hiệu suất</target>
       </trans-unit>
       <trans-unit id="1167">
         <source>achievement</source>
@@ -4675,15 +4675,15 @@
       </trans-unit>
       <trans-unit id="1168">
         <source>invalid name</source>
-        <target/>
+        <target>tên không hợp lệ</target>
       </trans-unit>
       <trans-unit id="1169">
         <source>Performance Tracker</source>
-        <target/>
+        <target>Theo dõi hiệu suất</target>
       </trans-unit>
       <trans-unit id="1170">
         <source>Achievement</source>
-        <target/>
+         <target>Thành tích</target>
       </trans-unit>
       <trans-unit id="1171">
         <source>Log</source>
@@ -4691,23 +4691,23 @@
       </trans-unit>
       <trans-unit id="1172">
         <source>Reviewer</source>
-        <target/>
+        <target>Người đánh giá</target>
       </trans-unit>
       <trans-unit id="1173">
         <source>Added Date</source>
-        <target/>
+        <target>Ngày được thêm</target>
       </trans-unit>
       <trans-unit id="1174">
         <source>Modified Date</source>
-        <target/>
+        <target>Ngày cập nhật</target>
       </trans-unit>
       <trans-unit id="1175">
         <source>Performance Trackers List</source>
-        <target/>
+        <target>Danh sách theo dõi hiệu suất</target>
       </trans-unit>
       <trans-unit id="1176">
         <source> - Tracker Log </source>
-        <target/>
+        <target> - Log theo dõi</target>
       </trans-unit>
       <trans-unit id="1177">
         <source>Clear</source>
@@ -4723,15 +4723,15 @@
       </trans-unit>
       <trans-unit id="1180">
         <source>My Performance Trackers List</source>
-        <target/>
+        <target>Danh sách theo dõi hiệu suất của tôi</target>
       </trans-unit>
       <trans-unit id="1181">
         <source>Tracker</source>
-        <target/>
+        <target>Theo dõi</target>
       </trans-unit>
       <trans-unit id="1182">
         <source>Tracker Name</source>
-        <target/>
+        <target>Tên theo dõi</target>
       </trans-unit>
       <trans-unit id="1183">
         <source>Activities</source>
@@ -4771,7 +4771,7 @@
       </trans-unit>
       <trans-unit id="1192">
         <source>Add Pay Grade</source>
-        <target>Trả hạng</target>
+        <target>Thêm Mức lương</target>
       </trans-unit>
       <trans-unit id="1193">
         <source>Add Project</source>
@@ -4819,11 +4819,11 @@
       </trans-unit>
       <trans-unit id="1204">
         <source>Better</source>
-        <target>Hơn</target>
+        <target>tốt hơn</target>
       </trans-unit>
       <trans-unit id="1205">
         <source>Click on a notification type to add subscribers</source>
-        <target>Nhấp vào một loại thông báo thêm thuê bao</target>
+        <target>Nhấp vào một loại thông báo để thêm thuê bao</target>
       </trans-unit>
       <trans-unit id="1206">
         <source>Column order should not be changed</source>
@@ -4835,11 +4835,11 @@
       </trans-unit>
       <trans-unit id="1208">
         <source>Copy Activity</source>
-        <target>Bản sao cuối</target>
+        <target>Bản sao hoạt động</target>
       </trans-unit>
       <trans-unit id="1209">
         <source>CSV Data Import</source>
-        <target>Xuất Khẩu dữ liệu CSV</target>
+        <target>Import dữ liệu CSV</target>
       </trans-unit>
       <trans-unit id="1210">
         <source>Current Password</source>
@@ -4847,7 +4847,7 @@
       </trans-unit>
       <trans-unit id="1211">
         <source>Current Password Is Wrong</source>
-        <target>Mật khẩu hiện tại là sai</target>
+        <target>Mật khẩu hiện tại sai</target>
       </trans-unit>
       <trans-unit id="1212">
         <source>Customer</source>
@@ -4859,7 +4859,7 @@
       </trans-unit>
       <trans-unit id="1214">
         <source>Date Format</source>
-        <target>Ngày Định dạng</target>
+        <target>Định dạng ngày</target>
       </trans-unit>
       <trans-unit id="1215">
         <source>Description is not specified</source>
@@ -4867,11 +4867,11 @@
       </trans-unit>
       <trans-unit id="1216">
         <source>Done</source>
-        <target>Thực hiện</target>
+        <target>Đã thực hiện</target>
       </trans-unit>
       <trans-unit id="1217">
         <source>Each import file should be configured for 100 records or less</source>
-        <target>Mỗi tập tin nhập khẩu phải được cấu hình cho 100 hồ sơ hoặc ít hơn</target>
+        <target>Mỗi file import được cấu hình cho tối đa 100 hồ sơ</target>
       </trans-unit>
       <trans-unit id="1218">
         <source>Edit Currency</source>
@@ -4907,7 +4907,7 @@
       </trans-unit>
       <trans-unit id="1226">
         <source>Edit Pay Grade</source>
-        <target>Chỉnh sửa Trả Lớp</target>
+        <target>Chỉnh sửa mức lương</target>
       </trans-unit>
       <trans-unit id="1227">
         <source>Edit Project</source>
@@ -4915,7 +4915,7 @@
       </trans-unit>
       <trans-unit id="1228">
         <source>Edit Project Activity</source>
-        <target>Chỉnh sửa cuối dự án</target>
+        <target>Chỉnh sửa hoạt động dự án</target>
       </trans-unit>
       <trans-unit id="1229">
         <source>Edit Subscriber</source>
@@ -4991,7 +4991,7 @@
       </trans-unit>
       <trans-unit id="1247">
         <source>If gender is specified, value should be either</source>
-        <target>Nếu giới được quy định cụ thể, giá trị sẽ là một trong hai</target>
+        <target>Nếu giới tính được quy định cụ thể, giá trị sẽ là một trong hai</target>
       </trans-unit>
       <trans-unit id="1248">
         <source>Job Description</source>
@@ -5083,7 +5083,7 @@
       </trans-unit>
       <trans-unit id="1270">
         <source>Performance Review Submissions</source>
-        <target>Hiệu suất đánh giá những phản hồi và những đề nghị, gợi ý</target>
+        <target>Đệ trình đánh giá hiệu suất</target>
       </trans-unit>
       <trans-unit id="1271">
         <source>Phone</source>
@@ -5095,11 +5095,11 @@
       </trans-unit>
       <trans-unit id="1273">
         <source>Project Admin</source>
-        <target>Dự án Quản trị viên</target>
+        <target>Quản lý dự án</target>
       </trans-unit>
       <trans-unit id="1274">
         <source>Project Admins</source>
-        <target>Dự án quản trị</target>
+        <target>Quản lý dự án</target>
       </trans-unit>
       <trans-unit id="1275">
         <source>Registration Number</source>
@@ -5119,7 +5119,7 @@
       </trans-unit>
       <trans-unit id="1279">
         <source>Shift Name</source>
-        <target>Thay đổi Tên</target>
+        <target>Tên ca</target>
       </trans-unit>
       <trans-unit id="1280">
         <source>SMTP Password</source>
@@ -5131,7 +5131,7 @@
       </trans-unit>
       <trans-unit id="1282">
         <source>SMTP User</source>
-        <target>User SMTP</target>
+        <target>Người dùng SMTP</target>
       </trans-unit>
       <trans-unit id="1283">
         <source>SSL</source>
@@ -5143,7 +5143,7 @@
       </trans-unit>
       <trans-unit id="1285">
         <source>Strongest</source>
-        <target>Strongest</target>
+        <target>Mạnh mẽ nhất</target>
       </trans-unit>
       <trans-unit id="1286">
         <source>Subscribers</source>
@@ -5151,7 +5151,7 @@
       </trans-unit>
       <trans-unit id="1287">
         <source>OrangeHRM - Supported Languages</source>
-        <target>OrangeHRM - Ngôn ngữ hỗ trợ</target>
+        <target>HRM - Ngôn ngữ hỗ trợ</target>
       </trans-unit>
       <trans-unit id="1288">
         <source>Supported languages</source>
@@ -5487,7 +5487,7 @@
       </trans-unit>
       <trans-unit id="1371">
         <source>Timesheets Pending Action</source>
-        <target>Timesheets chờ hành động</target>
+        <target>Thời gian biểu chờ thao tác</target>
       </trans-unit>
       <trans-unit id="1372">
         <source>Tue</source>
@@ -5539,7 +5539,7 @@
       </trans-unit>
       <trans-unit id="1384">
         <source>Remaining number of custom fields</source>
-        <target>Số còn lại của lĩnh vực tùy chỉnh</target>
+        <target>Số trường tùy chỉnh còn lại</target>
       </trans-unit>
       <trans-unit id="1385">
         <source>Account Number</source>
@@ -5611,11 +5611,11 @@
       </trans-unit>
       <trans-unit id="1402">
         <source>Assigned Emergency Contacts</source>
-        <target>Được giao khẩn cấp Liên hệ</target>
+        <target>Liên hệ khẩn cấp được chỉ định</target>
       </trans-unit>
       <trans-unit id="1403">
         <source>Assigned Immigration Records</source>
-        <target/>
+        <target>Hồ sơ nhập cư được chỉ định</target>
       </trans-unit>
       <trans-unit id="1404">
         <source>Assigned Memberships</source>
@@ -5623,7 +5623,7 @@
       </trans-unit>
       <trans-unit id="1405">
         <source>Assigned Subordinates</source>
-        <target>Phân công nhân viên dưới quyền</target>
+        <target>Phân công cấp dưới</target>
       </trans-unit>
       <trans-unit id="1406">
         <source>Assigned Supervisors</source>
@@ -5631,7 +5631,7 @@
       </trans-unit>
       <trans-unit id="1407">
         <source>At least one phone number is required</source>
-        <target>Ít nhất một số điện thoại được yêu cầu</target>
+        <target>Yêu cầu tối thiểu một số điện thoại</target>
       </trans-unit>
       <trans-unit id="1408">
         <source>Bi Weekly</source>
@@ -5651,11 +5651,11 @@
       </trans-unit>
       <trans-unit id="1412">
         <source>Contract Details</source>
-        <target>Hợp đồng Thông tin chi tiết</target>
+        <target>Chi tiết hợp đồng</target>
       </trans-unit>
       <trans-unit id="1413">
         <source>Country Specific Information</source>
-        <target>Quốc gia cụ thể thông tin</target>
+        <target>Thông tin cụ thể quốc gia</target>
       </trans-unit>
       <trans-unit id="1414">
         <source>Create Login Details</source>
@@ -5671,11 +5671,11 @@
       </trans-unit>
       <trans-unit id="1417">
         <source>Date of Expiry</source>
-        <target>Ngày của hết hạn</target>
+        <target>Ngày hết hạn</target>
       </trans-unit>
       <trans-unit id="1418">
         <source>Direct Deposit</source>
-        <target>Direct Deposit</target>
+        <target>Tiền gửi trực tiếp</target>
       </trans-unit>
       <trans-unit id="1419">
         <source>Document</source>
@@ -5683,11 +5683,11 @@
       </trans-unit>
       <trans-unit id="1420">
         <source>Document No</source>
-        <target>Tài liệu Không có</target>
+        <target>Số tài liệu</target>
       </trans-unit>
       <trans-unit id="1421">
         <source>Drop Down</source>
-        <target>Drop Down</target>
+        <target>Thả xuống</target>
       </trans-unit>
       <trans-unit id="1422">
         <source>Edit Custom Field</source>
@@ -5731,11 +5731,11 @@
       </trans-unit>
       <trans-unit id="1432">
         <source>Emergency Contact(s)</source>
-        <target>Liên Lạc Khẩn Cấp (s)</target>
+        <target>Liên hệ Khẩn Cấp (s)</target>
       </trans-unit>
       <trans-unit id="1433">
         <source>Employee Information</source>
-        <target>Nhân viên thông tin</target>
+        <target>Thông tin nhân viên</target>
       </trans-unit>
       <trans-unit id="1434">
         <source>Employment</source>
@@ -5743,7 +5743,7 @@
       </trans-unit>
       <trans-unit id="1435">
         <source>Employment Contract</source>
-        <target>Việc làm hợp đồng</target>
+        <target>Hợp đồng lao động</target>
       </trans-unit>
       <trans-unit id="1436">
         <source>Enter a number</source>
@@ -5767,15 +5767,15 @@
       </trans-unit>
       <trans-unit id="1441">
         <source>Field Name</source>
-        <target>Trường Name</target>
+        <target>Tên trường</target>
       </trans-unit>
       <trans-unit id="1442">
         <source>Field Type</source>
-        <target>Trường Type</target>
+        <target>Loại trường</target>
       </trans-unit>
       <trans-unit id="1443">
         <source>From date should be before to date</source>
-        <target>Từ ngày nên được trước khi cho đến nay</target>
+        <target>Ngày bắt đầu phải trước ngày kết thúc</target>
       </trans-unit>
       <trans-unit id="1444">
         <source>GPA/Score</source>
@@ -5791,7 +5791,7 @@
       </trans-unit>
       <trans-unit id="1447">
         <source>Issued date should be before expiration date</source>
-        <target>Ngày cấp trước ngày hết hạn</target>
+        <target>Ngày cấp phải trước ngày hết hạn</target>
       </trans-unit>
       <trans-unit id="1448">
         <source>Major/Specialization</source>
@@ -5831,7 +5831,7 @@
       </trans-unit>
       <trans-unit id="1457">
         <source>Nick Name</source>
-        <target>Nick Name</target>
+        <target>Biệt danh</target>
       </trans-unit>
       <trans-unit id="1458">
         <source>Non Resident Alien</source>
@@ -5891,27 +5891,27 @@
       </trans-unit>
       <trans-unit id="1472">
         <source>Show Deprecated Fields</source>
-        <target>Các trường phản đối</target>
+        <target>Hiển thị các trường không được dùng</target>
       </trans-unit>
       <trans-unit id="1473">
         <source>Show Nick Name, Smoker and Military Service in Personal Details</source>
-        <target>Hiển thị Nick Name, Hút Thuốc và vụ quân sự trong Thông tin cá nhân</target>
+        <target>Hiển thị biệt danh, người hút thuốc và nghĩa vụ quân sự trong Thông tin cá nhân</target>
       </trans-unit>
       <trans-unit id="1474">
         <source>Show SIN field in Personal Details</source>
-        <target>Hiển thị trường SIN Thông tin cá nhân</target>
+        <target>Hiển thị trường SIN trong Thông tin cá nhân</target>
       </trans-unit>
       <trans-unit id="1475">
         <source>Show SSN field in Personal Details</source>
-        <target>Hiển thị trường SSN Thông tin cá nhân</target>
+        <target>Hiển thị trường SSN trong Thông tin cá nhân</target>
       </trans-unit>
       <trans-unit id="1476">
         <source>Show US Tax Exemptions menu</source>
-        <target>Hiển thị Mỹ đơn miễn giảm thuế</target>
+        <target>Hiển thị đơn miễn giảm thuế US</target>
       </trans-unit>
       <trans-unit id="1477">
         <source>SIN Number</source>
-        <target>SIN Số</target>
+        <target>Số SIN</target>
       </trans-unit>
       <trans-unit id="1478">
         <source>Single</source>
@@ -5919,11 +5919,11 @@
       </trans-unit>
       <trans-unit id="1479">
         <source>Smoker</source>
-        <target>Hút Thuốc</target>
+        <target>Hút thuốc</target>
       </trans-unit>
       <trans-unit id="1480">
         <source>SSN Number</source>
-        <target>SSN Số</target>
+        <target>Số SSN</target>
       </trans-unit>
       <trans-unit id="1481">
         <source>State Income Tax</source>
@@ -5943,7 +5943,7 @@
       </trans-unit>
       <trans-unit id="1485">
         <source>Terminated Date</source>
-        <target>Kết thúc ngày</target>
+        <target>Ngày kết thúc</target>
       </trans-unit>
       <trans-unit id="1486">
         <source>Terminated on</source>
@@ -5951,7 +5951,7 @@
       </trans-unit>
       <trans-unit id="1487">
         <source>Terminated Reason</source>
-        <target>Kết thúc Lý do</target>
+        <target>Lý do chấm dứt</target>
       </trans-unit>
       <trans-unit id="1488">
         <source>Text or Number</source>
@@ -5959,7 +5959,7 @@
       </trans-unit>
       <trans-unit id="1489">
         <source>Unemployment State</source>
-        <target>Tỷ lệ thất nghiệp Nhà nước</target>
+        <target>Tình trạng thất nghiệp</target>
       </trans-unit>
       <trans-unit id="1490">
         <source>User Name</source>
@@ -5979,23 +5979,23 @@
       </trans-unit>
       <trans-unit id="1494">
         <source>Work State</source>
-        <target>Làm việc nhà nước</target>
+        <target>Trạng thái công việc</target>
       </trans-unit>
       <trans-unit id="1495">
         <source>Renewal date should be after commence date</source>
-        <target>Ngày gia hạn nên sau khi bắt đầu ngày</target>
+        <target>Ngày gia hạn phải sau ngày bắt đầu</target>
       </trans-unit>
       <trans-unit id="1496">
         <source>Delete photograph?</source>
-        <target>Xóa bức ảnh?</target>
+        <target>Xóa ảnh?</target>
       </trans-unit>
       <trans-unit id="1497">
         <source>Failed To Save: User Name Exists</source>
-        <target>Không: người sử dụng Name Tồn tại</target>
+        <target>Lưu thất bại: tên người dùng đã tồn tại</target>
       </trans-unit>
       <trans-unit id="1498">
         <source>Failed To Save: Employee Id Exists</source>
-        <target>Không: nhân viên Id Tồn tại</target>
+        <target>Lưu thất bại: Id nhân viên đã tồn tại</target>
       </trans-unit>
       <trans-unit id="1499">
         <source>Will be deleted from all employees</source>
@@ -6031,11 +6031,11 @@
       </trans-unit>
       <trans-unit id="1507">
         <source>Add another</source>
-        <target>Thêm một</target>
+        <target>Thêm khác</target>
       </trans-unit>
       <trans-unit id="1508">
         <source>Add Candidate</source>
-        <target>Thêm ứng cử viên</target>
+        <target>Thêm ứng viên</target>
       </trans-unit>
       <trans-unit id="1509">
         <source>Add Job Vacancy</source>
@@ -6043,7 +6043,7 @@
       </trans-unit>
       <trans-unit id="1510">
         <source>Adding Candidate</source>
-        <target>Thêm ứng cử viên</target>
+        <target>Thêm ứng viên</target>
       </trans-unit>
       <trans-unit id="1511">
         <source>Application Initiated</source>
@@ -6059,7 +6059,7 @@
       </trans-unit>
       <trans-unit id="1514">
         <source>Are you sure you want to remove job vacancy of the candidate</source>
-        <target>Bạn có chắc bạn muốn loại bỏ vị trí tuyển dụng việc làm của ứng cử viên</target>
+        <target>Bạn có chắc bạn muốn loại bỏ vị trí tuyển dụng việc làm của ứng viên</target>
       </trans-unit>
       <trans-unit id="1515">
         <source>as failed</source>
@@ -6079,11 +6079,11 @@
       </trans-unit>
       <trans-unit id="1519">
         <source>Candidate</source>
-        <target>Ứng cử viên</target>
+        <target>Ứng viên</target>
       </trans-unit>
       <trans-unit id="1520">
         <source>Candidate Name</source>
-        <target>Tên Ưng Viên</target>
+        <target>Tên ứng viên</target>
       </trans-unit>
       <trans-unit id="1521">
         <source>Candidate's History</source>
@@ -6091,7 +6091,7 @@
       </trans-unit>
       <trans-unit id="1522">
         <source>candidateName</source>
-        <target>candidateName</target>
+        <target>Tên ứng viên</target>
       </trans-unit>
       <trans-unit id="1523">
         <source>Cannot assign same interviewer twice</source>
@@ -6099,11 +6099,11 @@
       </trans-unit>
       <trans-unit id="1524">
         <source>Cannot assign same vacancy twice</source>
-        <target>Không thể chỉ định vị trí tuyển dụng cùng một hai lần</target>
+        <target>Không thể chỉ định cùng một vị trí tuyển dụng hai lần</target>
       </trans-unit>
       <trans-unit id="1525">
         <source>Click on a candidate to perform actions</source>
-        <target>Nhấp chuột vào một ứng cử viên để thực hiện hành động</target>
+        <target>Nhấp chuột vào một ứng viên để thực hiện thao tác</target>
       </trans-unit>
       <trans-unit id="1526">
         <source>Closed</source>
@@ -6119,7 +6119,7 @@
       </trans-unit>
       <trans-unit id="1529">
         <source>Should be less than current date</source>
-        <target>Nên được ít hơn so với ngày hiện tại</target>
+        <target>Phải nhỏ hơn ngày hiện tại</target>
       </trans-unit>
       <trans-unit id="1530">
         <source>Decline Offer</source>
@@ -6131,7 +6131,7 @@
       </trans-unit>
       <trans-unit id="1532">
         <source>Edit Candidate</source>
-        <target>Chỉnh sửa Candidate</target>
+        <target>Chỉnh sửa ứng viên</target>
       </trans-unit>
       <trans-unit id="1533">
         <source>Edit Interview Details</source>
@@ -6139,11 +6139,11 @@
       </trans-unit>
       <trans-unit id="1534">
         <source>Edit Job Vacancy</source>
-        <target>Chỉnh sửa tin tuyển dụng việc làm</target>
+        <target>Chỉnh vị trí tuyển dụng</target>
       </trans-unit>
       <trans-unit id="1535">
         <source>Editing Candidate</source>
-        <target>Chỉnh sửa Candidate</target>
+        <target>Chỉnh sửa ứng viên</target>
       </trans-unit>
       <trans-unit id="1536">
         <source>from the</source>
@@ -6171,7 +6171,7 @@
       </trans-unit>
       <trans-unit id="1542">
         <source>Interview Passed</source>
-        <target>Phỏng vấn Passed</target>
+        <target>Phỏng vấn đã vượt qua</target>
       </trans-unit>
       <trans-unit id="1543">
         <source>Interview Scheduled</source>
@@ -6179,19 +6179,19 @@
       </trans-unit>
       <trans-unit id="1544">
         <source>Interview Title</source>
-        <target>Phỏng vấn Tiêu đề</target>
+        <target>Tiêu đề Phỏng vấn </target>
       </trans-unit>
       <trans-unit id="1545">
         <source>Interviewer Name</source>
-        <target>Phỏng vấn Name</target>
+        <target>Tên người phỏng vấn</target>
       </trans-unit>
       <trans-unit id="1546">
         <source>Job Offered</source>
-        <target>Công việc Cung cấp</target>
+        <target>Công việc được cung cấp</target>
       </trans-unit>
       <trans-unit id="1547">
         <source>Job Vacancy</source>
-        <target>Việc làm trống</target>
+        <target>Vị trí tuyển dụng</target>
       </trans-unit>
       <trans-unit id="1548">
         <source>Manual</source>
@@ -6203,7 +6203,7 @@
       </trans-unit>
       <trans-unit id="1550">
         <source>Mark Interview Passed</source>
-        <target>Đánh dấu phỏng vấn trôi qua</target>
+        <target>Đánh dấu vòng phỏng vấn đã vượt qua</target>
       </trans-unit>
       <trans-unit id="1551">
         <source>marked</source>
@@ -6211,7 +6211,7 @@
       </trans-unit>
       <trans-unit id="1552">
         <source>marked the offer as declined</source>
-        <target>đánh dấu sự đề nghị là từ chối</target>
+        <target>đánh dấu từ chối đề nghị</target>
       </trans-unit>
       <trans-unit id="1553">
         <source>Method of Application</source>
@@ -6219,11 +6219,11 @@
       </trans-unit>
       <trans-unit id="1554">
         <source>No Actions</source>
-        <target>Không có Actions</target>
+        <target>Không có hoạt động</target>
       </trans-unit>
       <trans-unit id="1555">
         <source>No active job vacancies to display</source>
-        <target>Không có công việc của vị trí tuyển dụng hoạt động để hiển thị</target>
+        <target>Không có vị trí tuyển dụng đang hoạt động nào để hiển thị</target>
       </trans-unit>
       <trans-unit id="1556">
         <source>Number of Positions</source>
@@ -6295,11 +6295,11 @@
       </trans-unit>
       <trans-unit id="1573">
         <source>Vacancy Name</source>
-        <target>Vị trí tuyển dụng Tên</target>
+        <target>Tên Vị trí tuyển dụng</target>
       </trans-unit>
       <trans-unit id="1574">
         <source>View Action History</source>
-        <target>Lịch sử hành động</target>
+        <target>Xem Lịch sử thao tác</target>
       </trans-unit>
       <trans-unit id="1575">
         <source>View Interview Details</source>
@@ -6315,7 +6315,7 @@
       </trans-unit>
       <trans-unit id="1578">
         <source>Successfully Scheduled</source>
-        <target>Thành công theo lịch trình</target>
+        <target>Lập lịch biểu thành công</target>
       </trans-unit>
       <trans-unit id="1579">
         <source>This action will remove previous vacancy</source>
@@ -6323,7 +6323,7 @@
       </trans-unit>
       <trans-unit id="1580">
         <source>Remove?</source>
-        <target>Hủy bỏ?</target>
+        <target>Xóa bỏ?</target>
       </trans-unit>
       <trans-unit id="1581">
         <source>Vacancy Apply Form</source>
@@ -6351,7 +6351,7 @@
       </trans-unit>
       <trans-unit id="1587">
         <source>At Least One Day Should Be a Working Day</source>
-        <target>Ít nhất một ngày nên là một ngày làm việc</target>
+        <target>Ít nhất một ngày là một ngày làm việc</target>
       </trans-unit>
       <trans-unit id="1588">
         <source>Canceled</source>
@@ -6655,15 +6655,15 @@
       </trans-unit>
       <trans-unit id="1663">
         <source>My Leave Entitlements</source>
-        <target/>
+        <target>Quyền lợi nghỉ phép của tôi</target>
       </trans-unit>
       <trans-unit id="1664">
         <source>Leave Comments</source>
-        <target>Nhận xét nghỉ phép</target>
+        <target>Để lại bình luận</target>
       </trans-unit>
       <trans-unit id="1665">
         <source>Leave Request Comments</source>
-        <target>Nhận xét yêu cầu nghỉ phép</target>
+        <target>Để lại yêu cầu bình luận</target>
       </trans-unit>
       <trans-unit id="1666">
         <source>Bulk Assigning Leave Entitlement to %count% Employees. Please Wait</source>
@@ -6707,39 +6707,39 @@
       </trans-unit>
       <trans-unit id="1676">
         <source>None</source>
-        <target/>
+        <target>Không</target>
       </trans-unit>
       <trans-unit id="1677">
         <source>All Days</source>
-        <target/>
+        <target>Tất cả ngày</target>
       </trans-unit>
       <trans-unit id="1678">
         <source>Start Day Only</source>
-        <target/>
+        <target>Chỉ ngày bắt đầu</target>
       </trans-unit>
       <trans-unit id="1679">
         <source>End Day Only</source>
-        <target/>
+        <target>Chỉ ngày kết thúc</target>
       </trans-unit>
       <trans-unit id="1680">
         <source>Start and End Day</source>
-        <target/>
+        <target>Ngày bắt đầu và kết thúc</target>
       </trans-unit>
       <trans-unit id="1681">
         <source>Morning</source>
-        <target/>
+        <target>Buổi sáng</target>
       </trans-unit>
       <trans-unit id="1682">
         <source>Afternoon</source>
-        <target/>
+        <target>Buổi trưa</target>
       </trans-unit>
       <trans-unit id="1683">
         <source>Start Day</source>
-        <target/>
+        <target>Ngày bắt đầu</target>
       </trans-unit>
       <trans-unit id="1684">
         <source>End Day</source>
-        <target/>
+        <target>Ngày kết thúc</target>
       </trans-unit>
       <trans-unit id="1685">
         <source>KPIs</source>
@@ -6747,11 +6747,11 @@
       </trans-unit>
       <trans-unit id="1686">
         <source>Manage Reviews</source>
-        <target/>
+        <target>Quản lý đánh giá</target>
       </trans-unit>
       <trans-unit id="1687">
         <source>My Reviews</source>
-        <target/>
+        <target>Đánh giá của tôi</target>
       </trans-unit>
       <trans-unit id="1688">
         <source>KPI</source>
@@ -6759,23 +6759,23 @@
       </trans-unit>
       <trans-unit id="1689">
         <source>KPI Group</source>
-        <target/>
+        <target>Nhóm KPI</target>
       </trans-unit>
       <trans-unit id="1690">
         <source>Appraisal Header</source>
-        <target/>
+        <target>Tiêu đề thẩm định</target>
       </trans-unit>
       <trans-unit id="1691">
         <source>Review List</source>
-        <target/>
+        <target>Danh sách đánh giá</target>
       </trans-unit>
       <trans-unit id="1692">
         <source>Should be a positive integer</source>
-        <target/>
+        <target>Phải là một số nguyên dương</target>
       </trans-unit>
       <trans-unit id="1693">
         <source>Group Name</source>
-        <target/>
+       <target>Tên nhóm</target>
       </trans-unit>
       <trans-unit id="1694">
         <source>Weightage (1 - 100)</source>
@@ -6787,115 +6787,115 @@
       </trans-unit>
       <trans-unit id="1696">
         <source>Key Performance Indicator Groups</source>
-        <target/>
+        <target>Các nhóm chỉ số hiệu suất chính</target>
       </trans-unit>
       <trans-unit id="1697">
         <source>Search Performance Reviews</source>
-        <target/>
+        <target>Tìm kiếm đánh giá hiệu suất</target>
       </trans-unit>
       <trans-unit id="1698">
         <source>ConfigureKPI</source>
-        <target/>
+        <target>Cấu hình KPI</target>
       </trans-unit>
       <trans-unit id="1699">
         <source>My Review List</source>
-        <target/>
+        <target>Danh sách đánh giá của tôi</target>
       </trans-unit>
       <trans-unit id="1700">
         <source>Due Date</source>
-        <target/>
+        <target>Ngày đáo hạn</target>
       </trans-unit>
       <trans-unit id="1701">
         <source>Review Period</source>
-        <target/>
+        <target>Chu kỳ đánh giá</target>
       </trans-unit>
       <trans-unit id="1702">
         <source>Review Status</source>
-        <target/>
+        <target>Trạng thái đánh giá</target>
       </trans-unit>
       <trans-unit id="1703">
         <source>Evaluation Status</source>
-        <target/>
+        <target>Tình trạng đánh giá</target>
       </trans-unit>
       <trans-unit id="1704">
         <source>Edit Details</source>
-        <target/>
+        <target>Chi tiết chỉnh sửa</target>
       </trans-unit>
       <trans-unit id="1705">
         <source>Search Key Performance Indicators</source>
-        <target/>
+        <target>Tìm kiếm các chỉ số hiệu suất chính</target>
       </trans-unit>
       <trans-unit id="1706">
         <source>Weightage</source>
-        <target/>
+        <target>Trọng số</target>
       </trans-unit>
       <trans-unit id="1707">
         <source>Add KPI Group</source>
-        <target/>
+        <target>Thêm nhóm KPI</target>
       </trans-unit>
       <trans-unit id="1708">
         <source>Performance Review</source>
-        <target/>
+        <target>Đánh giá hiệu suất</target>
       </trans-unit>
       <trans-unit id="1709">
         <source>Subordinate Reviewers</source>
-        <target/>
+       <target>Đánh giá cấp dưới</target>
       </trans-unit>
       <trans-unit id="1710">
         <source>Peer Reviewers</source>
-        <target/>
+        <target>Đánh giá ngang hàng</target>
       </trans-unit>
       <trans-unit id="1711">
         <source>Supervisor Reviewers</source>
-        <target/>
+        <target>Đánh giá người quản lý</target>
       </trans-unit>
       <trans-unit id="1712">
         <source>Work Period Start Date</source>
-        <target/>
+        <target>Ngày bắt đầu chu trình công việc</target>
       </trans-unit>
       <trans-unit id="1713">
         <source>Work Period End Date</source>
-        <target/>
+        <target>Ngày kết thúc chu trình công việc</target>
       </trans-unit>
       <trans-unit id="1714">
         <source>Activate</source>
-        <target/>
+        <target>Kích hoạt</target>
       </trans-unit>
       <trans-unit id="1715">
         <source>Add Peer</source>
-        <target/>
+       <target>Thêm ngang hàng</target>
       </trans-unit>
       <trans-unit id="1716">
         <source>Evaluate</source>
-        <target/>
+       <target>Đánh giá</target>
       </trans-unit>
       <trans-unit id="1717">
         <source>View Progress</source>
-        <target/>
+        <target>Xem tiến trình</target>
       </trans-unit>
       <trans-unit id="1718">
         <source>Key Performance Indicator</source>
-        <target/>
+        <target>Chỉ số hiệu suất chính</target>
       </trans-unit>
       <trans-unit id="1719">
         <source>Min Rate</source>
-        <target/>
+        <target>Mức tối thiểu</target>
       </trans-unit>
       <trans-unit id="1720">
         <source>Max Rate</source>
-        <target/>
+        <target>Mức tối đa</target>
       </trans-unit>
       <trans-unit id="1721">
         <source>Is Default</source>
-        <target/>
+        <target>Là mặc định</target>
       </trans-unit>
       <trans-unit id="1722">
         <source>Period </source>
-        <target/>
+         <target>Chu kỳ</target>
       </trans-unit>
       <trans-unit id="1723">
         <source>Review Due Date</source>
-        <target/>
+        <target>Ngày kết thúc đánh giá</target>
       </trans-unit>
       <trans-unit id="1724">
         <source>Administrator Evaluation Form</source>
@@ -6971,19 +6971,19 @@
       </trans-unit>
       <trans-unit id="1742">
         <source>Key Performance Indicators for Job Title</source>
-        <target/>
+        <target>các chỉ số hiệu suất chính cho chức danh công việc</target>
       </trans-unit>
       <trans-unit id="1743">
         <source>Minimum Rating</source>
-        <target/>
+        <target>Mức tối thiểu</target>
       </trans-unit>
       <trans-unit id="1744">
         <source>Maximum Rating</source>
-        <target/>
+        <target>Mức tối đa</target>
       </trans-unit>
       <trans-unit id="1745">
         <source>Make Default Scale</source>
-        <target/>
+         <target>Đặt tỉ lệ mặc định</target>
       </trans-unit>
       <trans-unit id="1746">
         <source>Inactive</source>
@@ -7155,19 +7155,19 @@
       </trans-unit>
       <trans-unit id="1788">
         <source>Punch In</source>
-        <target>Cú đấm Trong</target>
+        <target>Bắt đầu tham dự</target>
       </trans-unit>
       <trans-unit id="1789">
         <source>Punch In Note</source>
-        <target>Cú đấm Trong chú giải</target>
+        <target>Ghi chú (vào)</target>
       </trans-unit>
       <trans-unit id="1790">
         <source>Punch Out</source>
-        <target>Đấm Out</target>
+        <target>Kết thúc tham dự</target>
       </trans-unit>
       <trans-unit id="1791">
         <source>Punch Out Note</source>
-        <target>Đấm Out Lưu ý</target>
+        <target>Ghi chú (ra)</target>
       </trans-unit>
       <trans-unit id="1792">
         <source>No attendance records to display</source>
@@ -7175,19 +7175,19 @@
       </trans-unit>
       <trans-unit id="1793">
         <source>Punch out Time Should Be Higher Than Punch in Time</source>
-        <target>Đấm ra thời gian nên là cao hơn cú đấm trong thời gian</target>
+        <target>Thời gian rời khỏi phải lớn hơn thời gian tham dự</target>
       </trans-unit>
       <trans-unit id="1794">
         <source>Overlapping Records Found</source>
-        <target>Ghi chồng lên nhau được tìm thấy</target>
+        <target>Đã tìm thấy bản ghi đè</target>
       </trans-unit>
       <trans-unit id="1795">
         <source>Comment should be less than 250 characters</source>
-        <target>Bình luận nên được ít hơn 250 ký tự</target>
+        <target>Bình luận phải ít hơn 250 ký tự</target>
       </trans-unit>
       <trans-unit id="1796">
         <source>Punch in/out note</source>
-        <target>Đấm vào / ra lưu ý</target>
+        <target>Ghi chú (vào/ra)</target>
       </trans-unit>
       <trans-unit id="1797">
         <source>Timezone</source>
@@ -7195,15 +7195,15 @@
       </trans-unit>
       <trans-unit id="1798">
         <source>Last punch in time</source>
-        <target>Cú đấm cuối cùng trong thời gian</target>
+        <target>Thời gian tham gia sau cùng</target>
       </trans-unit>
       <trans-unit id="1799">
         <source>In</source>
-        <target>Trong</target>
+        <target>Vào</target>
       </trans-unit>
       <trans-unit id="1800">
         <source>Out</source>
-        <target>Out</target>
+        <target>Ra</target>
       </trans-unit>
       <trans-unit id="1801">
         <source>Attendance Configuration</source>
@@ -7211,11 +7211,11 @@
       </trans-unit>
       <trans-unit id="1802">
         <source>Employee can change current time when punching in/out</source>
-        <target>Nhân viên có thể thay đổi thời gian hiện tại khi đấm vào / ra</target>
+        <target>Nhân viên có thể thay đổi thời gian hiện tại khi tham dự/ rời khỏi</target>
       </trans-unit>
       <trans-unit id="1803">
         <source>Employee can edit/delete own attendance records</source>
-        <target>Nhân viên có thể chỉnh sửa / xóa hồ sơ tham dự của</target>
+        <target>Nhân viên có thể chỉnh sửa / xóa hồ sơ tham dự của chính mình</target>
       </trans-unit>
       <trans-unit id="1804">
         <source>Supervisor can add/edit/delete attendance records of subordinates</source>
@@ -7243,7 +7243,7 @@
       </trans-unit>
       <trans-unit id="1810">
         <source>Social Media Authentication</source>
-        <target/>
+        <target>Xác thực mạng xã hội</target>
       </trans-unit>
       <trans-unit id="1811">
         <source>Provider List</source>
@@ -7287,7 +7287,7 @@
       </trans-unit>
       <trans-unit id="1821">
         <source>Login</source>
-        <target/>
+        <target>Đăng nhập</target>
       </trans-unit>
       <trans-unit id="1822">
         <source>Add Provider</source>
@@ -7371,59 +7371,59 @@
       </trans-unit>
       <trans-unit id="1842">
         <source>Employee does not exist</source>
-        <target/>
+        <target>Nhân viên không tồn tại</target>
       </trans-unit>
       <trans-unit id="1843">
         <source>Work Hours</source>
-        <target/>
+        <target>Giờ làm việc</target>
       </trans-unit>
       <trans-unit id="1844">
         <source>Leave Entitlements</source>
-        <target/>
+        <target>Quyền lợi nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1845">
         <source>Maintenance</source>
-        <target/>
+        <target>Bảo trì</target>
       </trans-unit>
       <trans-unit id="1846">
         <source>Purge Employee Records</source>
-        <target/>
+        <target>Xóa hồ sơ nhân viên</target>
       </trans-unit>
       <trans-unit id="1847">
         <source>Purge Records</source>
-        <target/>
+        <target>Xóa hồ sơ</target>
       </trans-unit>
       <trans-unit id="1848">
         <source>Access Records</source>
-        <target/>
+        <target>Hồ sơ truy cập</target>
       </trans-unit>
       <trans-unit id="1849">
         <source>Verify Password</source>
-        <target/>
+        <target>Xác nhận mật khẩu</target>
       </trans-unit>
       <trans-unit id="1850">
         <source>Verify</source>
-        <target/>
+        <target>Xác nhận</target>
       </trans-unit>
       <trans-unit id="1851">
         <source>Select Terminated Employee</source>
-        <target/>
+        <target>Chọn nhân viên đã kết thúc hợp đồng</target>
       </trans-unit>
       <trans-unit id="1852">
         <source>Purge Candidate Records</source>
-        <target/>
+        <target>Xóa hồ sơ ứng viên</target>
       </trans-unit>
       <trans-unit id="1853">
         <source>Select Vacancy</source>
-        <target/>
+        <target>Chọn vị trí tuyển dụng</target>
       </trans-unit>
       <trans-unit id="1854">
         <source>Download Personal Data</source>
-        <target/>
+        <target>Tải về dữ liệu cá nhân</target>
       </trans-unit>
       <trans-unit id="1855">
         <source>Selected Employee</source>
-        <target/>
+         <target>Nhân viên được chọn</target>
       </trans-unit>
       <trans-unit id="1856">
         <source>Purge</source>
@@ -7443,7 +7443,7 @@
       </trans-unit>
       <trans-unit id="1860">
         <source>Selected Candidates</source>
-        <target/>
+        <target>Ứng viên được chọn</target>
       </trans-unit>
       <trans-unit id="1861">
         <source>Date Of Applicant</source>
@@ -7455,35 +7455,35 @@
       </trans-unit>
       <trans-unit id="1863">
         <source>Access Data</source>
-        <target/>
+        <target>Truy cập dữ liệu</target>
       </trans-unit>
       <trans-unit id="1864">
         <source>Please enter your username to identify your account to reset your password.</source>
-        <target/>
+       <target>Vui lòng nhập tên đăng nhập để định danh tài khoản thiết lập lại mật khẩu.</target>
       </trans-unit>
       <trans-unit id="1865">
         <source>OrangeHRM Username</source>
-        <target/>
+        <target>Tên đăng nhập HRM</target>
       </trans-unit>
       <trans-unit id="1866">
         <source>Expected format: admin@example.com.</source>
-        <target/>
+        <target>Định dạng yêu cầu: admin@example.com.</target>
       </trans-unit>
       <trans-unit id="1867">
         <source>The username is invalid.</source>
-        <target/>
+        <target>Tên đăng nhập không hợp lệ</target>
       </trans-unit>
       <trans-unit id="1868">
         <source>Forgot Your Password?</source>
-        <target/>
+        <target>Quên mật khẩu?</target>
       </trans-unit>
       <trans-unit id="1869">
         <source>User account is not associated with an employee</source>
-        <target/>
+        <target>Tài khoản người dùng chưa được liên kết với một nhân viên</target>
       </trans-unit>
       <trans-unit id="1870">
         <source>Please contact HR admin in order to reset the password</source>
-        <target/>
+        <target>vui lòng liên hệ admin để thiết lập lại mật khẩu</target>
       </trans-unit>
       <trans-unit id="1871">
         <source>Work email is not set. Please contact HR admin in order to reset the password</source>
@@ -7515,11 +7515,11 @@
       </trans-unit>
       <trans-unit id="1878">
         <source>Reset Password</source>
-        <target/>
+        <target>Thiết lập lại mật khẩu</target>
       </trans-unit>
       <trans-unit id="1879">
         <source>Enter A New Password</source>
-        <target/>
+        <target>Nhập mật khẩu mới</target>
       </trans-unit>
       <trans-unit id="1880">
         <source>Instruction Sent !</source>
@@ -7531,11 +7531,11 @@
       </trans-unit>
       <trans-unit id="1882">
         <source>Successfully reset your password</source>
-        <target/>
+        <target>Thiết lập lại mật khẩu thành công</target>
       </trans-unit>
       <trans-unit id="1883">
         <source>Go to Login Page</source>
-        <target/>
+        <target>Đến trang đăng nhập</target>
       </trans-unit>
       <trans-unit id="1884">
         <source>This link is expired, Please request again</source>
@@ -7563,7 +7563,7 @@
       </trans-unit>
       <trans-unit id="1890">
         <source>User has authentication!</source>
-        <target/>
+        <target>Tài khoản được xác thực!</target>
       </trans-unit>
       <trans-unit id="1891">
         <source>Invalid Credentials : You Have No OpenID Account in OrangeHRM Try Login with OrangeHRM Credentials</source>
@@ -7731,7 +7731,7 @@
       </trans-unit>
       <trans-unit id="1932">
         <source>No new notifications</source>
-        <target/>
+        <target>Không có thông báo mới</target>
       </trans-unit>
       <trans-unit id="1933">
         <source>Failed to clear notifications</source>
@@ -7739,31 +7739,31 @@
       </trans-unit>
       <trans-unit id="1934">
         <source>Update Status</source>
-        <target/>
+        <target>Cập nhật trạng thái</target>
       </trans-unit>
       <trans-unit id="1935">
         <source>Upload Images</source>
-        <target/>
+         <target>Tải lên hình ảnh</target>
       </trans-unit>
       <trans-unit id="1936">
         <source>Share Video</source>
-        <target/>
+         <target>Chia sẻ video</target>
       </trans-unit>
       <trans-unit id="1937">
         <source>UPCOMING ANNIVERSARIES</source>
-        <target/>
+        <target>NGÀY KỶ NIỆM SẮP TỚI</target>
       </trans-unit>
       <trans-unit id="1938">
         <source>No Upcoming Anniversaries For Next 30 Days</source>
-        <target/>
+        <target>Không có Ngày kỷ niệm nào sắp tới trong 30 ngày kế tiếp</target>
       </trans-unit>
       <trans-unit id="1939">
         <source>MOST LIKED POSTS</source>
-        <target/>
+       <target>BÀI VIẾT ĐƯỢC YÊU THÍCH NHẤT</target>
       </trans-unit>
       <trans-unit id="1940">
         <source>MOST COMMENTED POSTS</source>
-        <target/>
+        <target>BÀI VIẾT ĐƯỢC BÌNH LUẬN NHIỀU NHẤT</target>
       </trans-unit>
       <trans-unit id="1941">
         <source>this</source>
@@ -7983,15 +7983,15 @@
       </trans-unit>
       <trans-unit id="1995">
         <source>Directory</source>
-        <target/>
+        <target>Danh mục</target>
       </trans-unit>
       <trans-unit id="1996">
         <source>Search Listing</source>
-        <target/>
+        <target>Tìm kiếm Danh sách</target>
       </trans-unit>
       <trans-unit id="1997">
         <source>Search Directory</source>
-        <target/>
+        <target>Tìm kiếm Danh mục</target>
       </trans-unit>
       <trans-unit id="1998">
         <source>Craft Workers</source>
@@ -8071,11 +8071,11 @@
       </trans-unit>
       <trans-unit id="2017">
         <source>Consent to keep data</source>
-        <target/>
+        <target>Đồng ý lưu giữ dữ liệu</target>
       </trans-unit>
       <trans-unit id="2018">
         <source>Incorrect Password</source>
-        <target/>
+        <target>Mật khẩu không đúng</target>
       </trans-unit>
       <trans-unit id="2019">
         <source>Users who seek access to their data, or who seek to correct, amend, or delete the given information should direct their requests to Data@orangehrm.com with the subject "Purge Records (Instance Identifier : %instanceid%)".</source>
@@ -8083,15 +8083,15 @@
       </trans-unit>
       <trans-unit id="2020">
         <source>Language Packages</source>
-        <target/>
+        <target>Gói ngôn ngữ</target>
       </trans-unit>
       <trans-unit id="2021">
         <source>Translate</source>
-        <target/>
+        <target>Dịch</target>
       </trans-unit>
       <trans-unit id="2022">
         <source>Add Language Package</source>
-        <target/>
+        <target>Thêm gói ngôn ngữ</target>
       </trans-unit>
       <trans-unit id="2023">
         <source>Users will require translate texts manually after creating the language package.</source>
@@ -8099,43 +8099,43 @@
       </trans-unit>
       <trans-unit id="2024">
         <source>Translate Language Package</source>
-        <target/>
+        <target>Dịch gói ngôn ngữ</target>
       </trans-unit>
       <trans-unit id="2025">
         <source>Language Package</source>
-        <target/>
+        <target>Gói ngôn ngữ</target>
       </trans-unit>
       <trans-unit id="2026">
         <source>Source Language</source>
-        <target/>
+        <target>Ngôn ngữ gốc</target>
       </trans-unit>
       <trans-unit id="2027">
         <source>Module</source>
-        <target/>
+        <target>Mô-đun</target>
       </trans-unit>
       <trans-unit id="2028">
         <source>Source Text</source>
-        <target/>
+        <target>Từ gốc</target>
       </trans-unit>
       <trans-unit id="2029">
         <source>Translated Text</source>
-        <target/>
+        <target>Từ được dịch</target>
       </trans-unit>
       <trans-unit id="2030">
         <source>Show</source>
-        <target/>
+        <target>Thể hiện</target>
       </trans-unit>
       <trans-unit id="2031">
         <source>Translated</source>
-        <target/>
+        <target>Được dịch</target>
       </trans-unit>
       <trans-unit id="2032">
         <source>Not Translated</source>
-        <target/>
+        <target>Chưa được dịch</target>
       </trans-unit>
       <trans-unit id="2033">
         <source>General</source>
-        <target/>
+        <target>Chung</target>
       </trans-unit>
       <trans-unit id="2034">
         <source>Source Note</source>
@@ -8143,11 +8143,11 @@
       </trans-unit>
       <trans-unit id="2035">
         <source>Export</source>
-        <target/>
+        <target>Xuất dữ liệu</target>
       </trans-unit>
       <trans-unit id="2036">
         <source>Failed to Export</source>
-        <target/>
+        <target>Xuất dữ liệu thất bại</target>
       </trans-unit>
     </body>
   </file>
