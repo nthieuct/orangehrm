@@ -158,7 +158,7 @@
       </trans-unit>
       <trans-unit id="39">
         <source>Apply</source>
-        <target>Áp dụng</target>
+        <target>Gửi đơn</target>
       </trans-unit>
       <trans-unit id="40">
         <source>April</source>
@@ -1886,31 +1886,31 @@
       </trans-unit>
       <trans-unit id="471">
         <source>Leave</source>
-        <target>Để lại</target>
+        <target>Nghỉ phép</target>
       </trans-unit>
       <trans-unit id="472">
         <source>Leave Balance (Days)</source>
-        <target>Để cân bằng (Ngày)</target>
+        <target>Nghỉ phép khả dụng (Ngày)</target>
       </trans-unit>
       <trans-unit id="473">
         <source>Leave Entitled (Days)</source>
-        <target>Để lại tiêu đề (Ngày)</target>
+        <target>Quyền lợi nghỉ phép (Ngày)</target>
       </trans-unit>
       <trans-unit id="474">
         <source>Leave List</source>
-        <target>Để lại Danh sách</target>
+        <target>Danh sách nghỉ phép</target>
       </trans-unit>
       <trans-unit id="475">
         <source>Leave Period</source>
-        <target>Để lại thời kỳ</target>
+        <target>Chu kỳ nghỉ phép</target>
       </trans-unit>
       <trans-unit id="476">
         <source>Leave Scheduled (Days)</source>
-        <target>Để lại theo lịch trình (Ngày)</target>
+        <target>Lịch nghỉ phép (Ngày)</target>
       </trans-unit>
       <trans-unit id="477">
         <source>Leave Summary</source>
-        <target>Để Tóm tắt thông tin</target>
+        <target>Tóm tắt nghỉ phép</target>
       </trans-unit>
       <trans-unit id="478">
         <source>Leave Taken (Days)</source>
@@ -1918,7 +1918,7 @@
       </trans-unit>
       <trans-unit id="479">
         <source>Leave Types</source>
-        <target>Để loại</target>
+        <target>Loại nghỉ phép</target>
       </trans-unit>
       <trans-unit id="480">
         <source>Lebanese</source>
@@ -2338,7 +2338,8 @@
       </trans-unit>
       <trans-unit id="584">
         <source>My Leave</source>
-        <target>Leave My</target>
+        <target>Nghỉ phép của tôi</target>
+        <target>Nghỉ phép của tôi</target>
       </trans-unit>
       <trans-unit id="585">
         <source>My Records</source>
@@ -2910,7 +2911,7 @@
       </trans-unit>
       <trans-unit id="727">
         <source>Required field</source>
-        <target/>
+        <target>Trường bắt buộc</target>
       </trans-unit>
       <trans-unit id="728">
         <source>Reset</source>
@@ -2922,7 +2923,7 @@
       </trans-unit>
       <trans-unit id="730">
         <source>Resigned - Company Requested</source>
-        <target>Từ chức - Công ty được yêu cầu</target>
+        <target>Từ chức - Yêu cầu từ công ty</target>
       </trans-unit>
       <trans-unit id="731">
         <source>Resigned - Self Proposed</source>
@@ -3358,7 +3359,7 @@
       </trans-unit>
       <trans-unit id="839">
         <source>Sub Unit</source>
-        <target>Tiểu đơn vị</target>
+        <target>Trung tâm/ Khối quản lý</target>
       </trans-unit>
       <trans-unit id="840">
         <source>Subordinates</source>
@@ -3390,19 +3391,19 @@
       </trans-unit>
       <trans-unit id="847">
         <source>Successfully Deleted</source>
-        <target>Thành công Đã bị xóa</target>
+        <target>Xóa thành công</target>
       </trans-unit>
       <trans-unit id="848">
         <source>Successfully Saved</source>
-        <target>Thành công đã lưu</target>
+        <target>Lưu thành công</target>
       </trans-unit>
       <trans-unit id="849">
         <source>Successfully Updated</source>
-        <target>Thành công Cập nhật</target>
+        <target>Cập nhật thành công</target>
       </trans-unit>
       <trans-unit id="850">
         <source>Successfully Uploaded</source>
-        <target>Thành công Uploaded</target>
+        <target>Tải lên thành công</target>
       </trans-unit>
       <trans-unit id="851">
         <source>Sudan</source>
@@ -3430,7 +3431,7 @@
       </trans-unit>
       <trans-unit id="857">
         <source>Supervisor Name</source>
-        <target>Giám sát Name</target>
+        <target>Tên người giám sát</target>
       </trans-unit>
       <trans-unit id="858">
         <source>Supervisors</source>
@@ -3542,7 +3543,7 @@
       </trans-unit>
       <trans-unit id="885">
         <source>Termination Reasons</source>
-        <target>Chấm dứt lý do</target>
+        <target>Lý do chấm dứt</target>
       </trans-unit>
       <trans-unit id="886">
         <source>Texas</source>
@@ -3674,7 +3675,7 @@
       </trans-unit>
       <trans-unit id="918">
         <source>Type for hints</source>
-        <target>Loại cho các gợi ý</target>
+        <target>Nhập vào để hiển thị gợi ý</target>
       </trans-unit>
       <trans-unit id="919">
         <source>Uganda</source>
@@ -4062,7 +4063,7 @@
       </trans-unit>
       <trans-unit id="1015">
         <source>Invalid credentials</source>
-        <target>Không hợp lệ thông tin</target>
+        <target>Thông tin không hợp lệ</target>
       </trans-unit>
       <trans-unit id="1016">
         <source>Europe/Belgrade</source>
@@ -4194,15 +4195,15 @@
       </trans-unit>
       <trans-unit id="1048">
         <source>Termination Date</source>
-        <target>Chấm dứt ngày</target>
+        <target>Ngày chấm dứt</target>
       </trans-unit>
       <trans-unit id="1049">
         <source>Termination Reason</source>
-        <target>Chấm dứt Lý do</target>
+        <target>Lý do chấm dứt</target>
       </trans-unit>
       <trans-unit id="1050">
         <source>Activity Name</source>
-        <target>Hoạt động Name</target>
+        <target>Tên hoạt động</target>
       </trans-unit>
       <trans-unit id="1051">
         <source>Add Education</source>
@@ -4270,7 +4271,7 @@
       </trans-unit>
       <trans-unit id="1067">
         <source>State/Province</source>
-        <target>Tiểu bang / Tỉnh</target>
+        <target>Tỉnh</target>
       </trans-unit>
       <trans-unit id="1068">
         <source>Zip/Postal Code</source>
@@ -4290,7 +4291,7 @@
       </trans-unit>
       <trans-unit id="1072">
         <source>Invalid Date</source>
-        <target>Không hợp lệ ngày</target>
+        <target>Ngày không hợp lệ</target>
       </trans-unit>
       <trans-unit id="1073">
         <source>Note</source>
@@ -4322,7 +4323,7 @@
       </trans-unit>
       <trans-unit id="1080">
         <source>Back to Job List</source>
-        <target>Sao lưu để Danh sách công việc</target>
+        <target>Trở về Danh sách công việc</target>
       </trans-unit>
       <trans-unit id="1081">
         <source>Collapse all</source>
@@ -4330,7 +4331,7 @@
       </trans-unit>
       <trans-unit id="1082">
         <source>Contact No</source>
-        <target>Liên hệ Không có</target>
+        <target>Số Liên hệ</target>
       </trans-unit>
       <trans-unit id="1083">
         <source>Download</source>
@@ -4354,7 +4355,7 @@
       </trans-unit>
       <trans-unit id="1088">
         <source>Performed By</source>
-        <target>Thực hiện By</target>
+        <target>Thực hiện bởi</target>
       </trans-unit>
       <trans-unit id="1089">
         <source>Reject</source>
@@ -4390,7 +4391,7 @@
       </trans-unit>
       <trans-unit id="1097">
         <source>Enter comma separated words</source>
-        <target>Nhập từ dấu phẩy tách</target>
+        <target>Nhập từ chia tách bằng dấu phẩy</target>
       </trans-unit>
       <trans-unit id="1098">
         <source>Approved</source>
@@ -4574,7 +4575,7 @@
       </trans-unit>
       <trans-unit id="1143">
         <source>User Management</source>
-        <target/>
+        <target>Quản trị người dùng</target>
       </trans-unit>
       <trans-unit id="1144">
         <source>Initial Balance</source>
@@ -5190,7 +5191,7 @@
       </trans-unit>
       <trans-unit id="1297">
         <source>User Secure Connection</source>
-        <target>Người sử dụng an toàn kết nối</target>
+        <target>Kết nối an toàn người dùng</target>
       </trans-unit>
       <trans-unit id="1298">
         <source>User Type</source>
@@ -5226,7 +5227,7 @@
       </trans-unit>
       <trans-unit id="1306">
         <source>Should be higher than Minimum Salary</source>
-        <target>Nên được cao hơn lương tối thiểu</target>
+        <target>Phải cao hơn lương tối thiểu</target>
       </trans-unit>
       <trans-unit id="1307">
         <source>Level Already Exists</source>
@@ -5238,7 +5239,7 @@
       </trans-unit>
       <trans-unit id="1309">
         <source>Multiple import files may be required</source>
-        <target>Nhiều tác phẩm nhập khẩu có thể được yêu cầu</target>
+        <target>Cần thiết import nhiều file</target>
       </trans-unit>
       <trans-unit id="1310">
         <source>Language and font help</source>
@@ -5246,11 +5247,11 @@
       </trans-unit>
       <trans-unit id="1311">
         <source>Organization Structure</source>
-        <target/>
+       <target>Cơ cấu tổ chức</target>
       </trans-unit>
       <trans-unit id="1312">
         <source>This is a deleted customer. Reactivate again?</source>
-        <target/>
+        <target>Đây là một khách hàng đã bị xóa. Bạn muốn kích hoạt lại?</target>
       </trans-unit>
       <trans-unit id="1313">
         <source>Customer will be undeleted</source>
@@ -5258,11 +5259,11 @@
       </trans-unit>
       <trans-unit id="1314">
         <source>A new customer will be created with same name</source>
-        <target/>
+        <target>Tạo mới khách hàng với tên tương tự</target>
       </trans-unit>
       <trans-unit id="1315">
         <source>Will take no action</source>
-        <target>Sẽ không có hành động</target>
+        <target>Không có hành động</target>
       </trans-unit>
       <trans-unit id="1316">
         <source>Click on Edit button to enable notifications</source>
@@ -5274,59 +5275,59 @@
       </trans-unit>
       <trans-unit id="1318">
         <source>View Pay Grade</source>
-        <target/>
+        <target>Xem mức lương</target>
       </trans-unit>
       <trans-unit id="1319">
         <source>View Job Title</source>
-        <target/>
+        <target>Xem vị trí công việc</target>
       </trans-unit>
       <trans-unit id="1320">
         <source>Dashboard</source>
-        <target/>
+        <target>Bảng điều khiển</target>
       </trans-unit>
       <trans-unit id="1321">
         <source>Quick Launch</source>
-        <target/>
+        <target>Truy cập nhanh</target>
       </trans-unit>
       <trans-unit id="1322">
         <source>Employee Distribution by Subunit</source>
-        <target/>
+        <target>Phân bố nhân viên theo đơn vị trực thuộc</target>
       </trans-unit>
       <trans-unit id="1323">
         <source>Not assigned to Subunits</source>
-        <target/>
+        <target>Không có đơn vị</target>
       </trans-unit>
       <trans-unit id="1324">
         <source>Pending Leave Requests</source>
-        <target/>
+        <target>Yêu cầu nghỉ phép chờ duyệt</target>
       </trans-unit>
       <trans-unit id="1325">
         <source>Apply Leave</source>
-        <target>Áp dụng lại</target>
+        <target>Gửi đơn xin nghỉ</target>
       </trans-unit>
       <trans-unit id="1326">
         <source>My Timesheet</source>
-        <target/>
+        <target>Thời gian biểu của tôi</target>
       </trans-unit>
       <trans-unit id="1327">
         <source>No Records are Available</source>
-        <target/>
+        <target>Không có dữ liệu</target>
       </trans-unit>
       <trans-unit id="1328">
         <source>%months% month(s)</source>
-        <target/>
+        <target>%months% tháng</target>
       </trans-unit>
       <trans-unit id="1329">
         <source>Total : </source>
-        <target/>
+        <target>Tổng cộng: </target>
       </trans-unit>
       <trans-unit id="1330">
         <source>No Data to Display</source>
-        <target/>
+        <target>Không có dữ liệu</target>
       </trans-unit>
       <trans-unit id="1331">
         <source>Legend</source>
-        <target/>
+        <target>Chú thích: </target>
       </trans-unit>
       <trans-unit id="1332">
         <source>Actions Performed on the Timesheet</source>
@@ -5866,7 +5867,7 @@
       </trans-unit>
       <trans-unit id="1466">
         <source>Report-to</source>
-        <target>Báo cáo đến</target>
+        <target>Báo cáo</target>
       </trans-unit>
       <trans-unit id="1467">
         <source>Screen</source>
@@ -6450,7 +6451,7 @@
       </trans-unit>
       <trans-unit id="1612">
         <source>Leave Type</source>
-        <target>Để Loại</target>
+        <target>Loại nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1613">
         <source>Leave type will be undeleted</source>
@@ -6550,7 +6551,7 @@
       </trans-unit>
       <trans-unit id="1637">
         <source>Should be less than work shift length</source>
-        <target>Nên được ít hơn chiều dài ca làm việc</target>
+        <target>Phải ít hơn khoảng ca làm việc</target>
       </trans-unit>
       <trans-unit id="1638">
         <source>Leave Period Not Defined</source>
@@ -6558,7 +6559,7 @@
       </trans-unit>
       <trans-unit id="1639">
         <source>Full Day/Half Day</source>
-        <target>Day / Ngày Một nửa</target>
+        <target>Day / Nửa ngày</target>
       </trans-unit>
       <trans-unit id="1640">
         <source>Leave Request (%date_range%) %name%</source>
@@ -6570,15 +6571,15 @@
       </trans-unit>
       <trans-unit id="1642">
         <source>Failed to Submit</source>
-        <target>Không để gửi</target>
+        <target>Gửi thất bại</target>
       </trans-unit>
       <trans-unit id="1643">
         <source>Add Leave Type</source>
-        <target>Để Loại</target>
+        <target>Thêm loại nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1644">
         <source>Edit Leave Type</source>
-        <target>Chỉnh sửa lại Loại</target>
+        <target>Chỉnh sửa loại nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1645">
         <source>Entitlement Type</source>
@@ -6658,11 +6659,11 @@
       </trans-unit>
       <trans-unit id="1664">
         <source>Leave Comments</source>
-        <target/>
+        <target>Nhận xét nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1665">
         <source>Leave Request Comments</source>
-        <target/>
+        <target>Nhận xét yêu cầu nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1666">
         <source>Bulk Assigning Leave Entitlement to %count% Employees. Please Wait</source>
