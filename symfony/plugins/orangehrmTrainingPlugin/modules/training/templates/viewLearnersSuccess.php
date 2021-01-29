@@ -14,17 +14,40 @@ if (isset($_POST['txtlearneriddel'])) {
 if (isset($_REQUEST['sortField']))
 	$sortfield = $_REQUEST['sortField'];
 else
-	$sortfield = 'c.course_name';
+	$sortfield = 'b.course_name';
 
 if (isset($_REQUEST['sortOrder']))
 	$sortorder = $_REQUEST['sortOrder'];
 else
 	$sortorder = 'ASC';
 
-if (isset($_POST['txtkeyword']))
-	$keyword = $_POST['txtkeyword'];
+if (isset($_POST['cboCourseSearch']))
+	$s_course = $_POST['cboCourseSearch'];
+else if (isset($_REQUEST['s_course']))
+	$s_course = $_REQUEST['s_course'];
 else
-	$keyword = '';
+	$s_course = '0';
+
+if (isset($_POST['cboEmpSearch']))
+	$s_emp = $_POST['cboEmpSearch'];
+else if (isset($_REQUEST['s_emp']))
+	$s_emp = $_REQUEST['s_emp'];
+else
+	$s_emp = '0';
+
+if (isset($_POST['txtfromdate']))
+	$s_fromdate = $_POST['txtfromdate'];
+else if (isset($_REQUEST['s_fromdate']))
+	$s_fromdate = $_REQUEST['s_fromdate'];
+else
+	$s_fromdate = date('01-01-Y');
+
+if (isset($_POST['txttodate']))
+	$s_todate = $_POST['txttodate'];
+else if (isset($_REQUEST['s_todate']))
+	$s_todate = $_REQUEST['s_todate'];
+else
+	$s_todate = date('31-12-Y');
 
 if (isset($_REQUEST['id'])) {
 	$rowC = $learner->getLearner($_REQUEST['id']);
@@ -43,20 +66,58 @@ if (isset($_REQUEST['id'])) {
 <div style="width: 63%; float: left;">
 	<div class="box searchForm toggableForm" id="srchLearners">
 	   <div class="head">
-		  <h1>Danh mục khóa đào tạo</h1>
+		  <h1>Thông tin đào tạo</h1>
 	   </div>
 	   <div class="inner">
 		  <form name="frmSrchLearners" id="frmSrchLearners" method="post" action="/orangehrm/symfony/web/index.php/training/viewLearners">
 			 <fieldset>
 				<ol>
 				   <li>
-					  <label>Từ khóa tìm kiếm</label>                        
-					  <input type="text" name="txtkeyword" value="" id="txtkeyword" autocomplete="off" />
+					  <label>Khóa đào tạo</label>                        
+					  <select name="cboCourseSearch" id="cboCourseSearch">
+					     <option value="0">Tất cả</option>
+						 <?php
+						 $rowCs = $course->getAllCourses('', 'c.course_name', 'asc');
+						 foreach($rowCs as $row) {
+						    if ($s_course == $row['course_id'])
+								$sl = ' selected="selected"';
+							else
+								$sl = '';
+							
+							echo '<option value="'.$row['course_id'].'"'.$sl.'>'.$row['course_name'].'</option>';
+						 }
+						 ?>
+					  </select>
+				   </li>
+				   <li>
+					  <label>Nhân viên</label>                        
+					  <select name="cboEmpSearch" id="cboEmpSearch">
+					     <option value="0">Tất cả</option>
+						 <?php
+						 $rowEs = $learner->getAllEmps();
+						 foreach($rowEs as $row) {
+							if ($s_emp == $row['emp_number'])
+								$sl = ' selected="selected"';
+							else
+								$sl = '';
+							
+						    echo '<option value="'.$row['emp_number'].'"'.$sl.'>'.$row['emp_firstname'].' '.$row['emp_middle_name'].' '.$row['emp_lastname'].'</option>';
+						 }
+						 ?>
+					  </select>
+				   </li>
+				   <li>
+					  <label>Từ ngày</label>  
+					  <input id="txtfromdate" type="text" name="txtfromdate" class="calendar" value="<?php echo $s_fromdate; ?>" />
+				   </li>
+				   <li>
+					  <label>Đến ngày</label>  
+				      <input id="txttodate" type="text" name="txttodate" class="calendar" value="<?php echo $s_todate; ?>" />
 				   </li>
 				</ol>
 				<p>
 				   <input type="submit" id="btnSrch" value="Tìm kiếm" name="btnSrch" class="">
-				   <input type="reset" class="reset" id="btnRst" value="Thiết lập lại" name="btnSrch">                   
+				   <input type="button" class="reset" id="btnRst" value="Thiết lập lại" name="btnSrch" onclick="document.frmRst.submit();">                   
 				</p>
 			 </fieldset>
 		  </form>
@@ -71,19 +132,20 @@ if (isset($_REQUEST['id'])) {
 				   <tr>
 					  <th rowspan="1" style="width:5%" class="center"><i class="fas fa-trash"></i></th>
 					  <th rowspan="1" style="width:5%" class="center"><i class="fas fa-edit"></i></th>
-					  <th rowspan="1" style="width:20%" class="header"><a href="http://localhost/orangehrm/symfony/web/index.php/training/viewLearners?sortField=c.course_name&amp;sortOrder=<?php if ($sortorder == 'ASC') echo 'DESC'; else echo 'ASC'; ?>" class="null">Tên khóa đào tạo</a></th>
-					  <th rowspan="1" style="width:15%" class="header"><a href="http://localhost/orangehrm/symfony/web/index.php/training/viewLearners?sortField=c.start_date&amp;sortOrder=<?php if ($sortorder == 'ASC') echo 'DESC'; else echo 'ASC'; ?>" class="null">Ngày BĐ</a></th>
-					  <th rowspan="1" style="width:15%" class="header"><a href="http://localhost/orangehrm/symfony/web/index.php/training/viewLearners?sortField=c.end_date&amp;sortOrder=<?php if ($sortorder == 'ASC') echo 'DESC'; else echo 'ASC'; ?>" class="null">Ngày KT</a></th>
-					  <th rowspan="1" style="width:20%" class="header"><a href="http://localhost/orangehrm/symfony/web/index.php/training/viewLearners?sortField=c.place&amp;sortOrder=<?php if ($sortorder == 'ASC') echo 'DESC'; else echo 'ASC'; ?>" class="null">Địa điểm đào tạo</a></th>
-					  <th rowspan="1" style="width:20%" class="header"><a href="http://localhost/orangehrm/symfony/web/index.php/training/viewLearners?sortField=c.organization&amp;sortOrder=<?php if ($sortorder == 'ASC') echo 'DESC'; else echo 'ASC'; ?>" class="null">Đơn vị đào tạo</a></th>
+					  <th rowspan="1" style="width:20%" class="header"><a href="http://localhost/orangehrm/symfony/web/index.php/training/viewLearners?sortField=b.course_name&amp;sortOrder=<?php if ($sortorder == 'ASC') echo 'DESC'; else echo 'ASC'; ?><?php echo '&amp;s_course='.$s_course.'&amp;s_emp='.$s_emp.'&amp;s_fromdate='.$s_fromdate.'&amp;s_todate='.$s_todate; ?>" class="null">Tên khóa đào tạo</a></th>
+					  <th rowspan="1" style="width:10%" class="header"><a href="http://localhost/orangehrm/symfony/web/index.php/training/viewLearners?sortField=b.start_date&amp;sortOrder=<?php if ($sortorder == 'ASC') echo 'DESC'; else echo 'ASC'; ?><?php echo '&amp;s_course='.$s_course.'&amp;s_emp='.$s_emp.'&amp;s_fromdate='.$s_fromdate.'&amp;s_todate='.$s_todate; ?>" class="null">Ngày BĐ</a></th>
+					  <th rowspan="1" style="width:10%" class="header"><a href="http://localhost/orangehrm/symfony/web/index.php/training/viewLearners?sortField=b.end_date&amp;sortOrder=<?php if ($sortorder == 'ASC') echo 'DESC'; else echo 'ASC'; ?><?php echo '&amp;s_course='.$s_course.'&amp;s_emp='.$s_emp.'&amp;s_fromdate='.$s_fromdate.'&amp;s_todate='.$s_todate; ?>" class="null">Ngày KT</a></th>
+					  <th rowspan="1" style="width:20%" class="header"><a href="http://localhost/orangehrm/symfony/web/index.php/training/viewLearners?sortField=c.emp_lastname&amp;sortOrder=<?php if ($sortorder == 'ASC') echo 'DESC'; else echo 'ASC'; ?><?php echo '&amp;s_course='.$s_course.'&amp;s_emp='.$s_emp.'&amp;s_fromdate='.$s_fromdate.'&amp;s_todate='.$s_todate; ?>" class="null">Tên nhân viên</a></th>
+					  <th rowspan="1" style="width:15%" class="header"><a href="http://localhost/orangehrm/symfony/web/index.php/training/viewLearners?sortField=a.result&amp;sortOrder=<?php if ($sortorder == 'ASC') echo 'DESC'; else echo 'ASC'; ?><?php echo '&amp;s_course='.$s_course.'&amp;s_emp='.$s_emp.'&amp;s_fromdate='.$s_fromdate.'&amp;s_todate='.$s_todate; ?>" class="null">Kết quả</a></th>
+					  <th rowspan="1" style="width:15%" class="header"><a href="http://localhost/orangehrm/symfony/web/index.php/training/viewLearners?sortField=a.note&amp;sortOrder=<?php if ($sortorder == 'ASC') echo 'DESC'; else echo 'ASC'; ?><?php echo '&amp;s_course='.$s_course.'&amp;s_emp='.$s_emp.'&amp;s_fromdate='.$s_fromdate.'&amp;s_todate='.$s_todate; ?>" class="null">Ghi chú</a></th>
 				   </tr>
 			    </thead>
 			    <tbody>
 				    <?php
-				    $rowCs = $learner->getAllLearners($keyword, $sortfield, $sortorder);
+				    $rowLs = $learner->getAllLearners($s_course, $s_emp, date('Y-m-d', strtotime($s_fromdate)), date('Y-m-d', strtotime($s_todate)), $sortfield, $sortorder);
 				    
 					$stt = 1;
-					foreach($rowCs as $row) {
+					foreach($rowLs as $row) {
 						if ($stt % 2 == 0)
 							$tr_class = "even";
 						else
@@ -95,15 +157,16 @@ if (isset($_REQUEST['id'])) {
 							<td class="left">'.$row['course_name'].'</td>
 							<td class="left">'.date('d-m-Y', strtotime($row["start_date"])).'</td>
 							<td class="left">'.date('d-m-Y', strtotime($row["end_date"])).'</td>
-							<td class="left">'.$row['place'].'</td>
-							<td class="left">'.$row['organization'].'</td>
+							<td class="left">'.$row['emp_firstname'].' '.$row['emp_middle_name'].' '.$row['emp_lastname'].'</td>
+							<td class="left">'.$row['result'].'</td>
+							<td class="left">'.$row['note'].'</td>
 							</tr>';
 										
 						$stt++;
 					}
 					
 					if ($stt == 1)
-						echo '<tr><td colspan="7">Không có khóa đào tạo nào</td></tr>';
+						echo '<tr><td colspan="8">Không có khóa đào tạo nào</td></tr>';
 				    ?>
 			    </tbody>
 			 </table>
@@ -116,7 +179,7 @@ if (isset($_REQUEST['id'])) {
 
 <div class="box addForm toggableForm" id="addLearner" style="width: 35%; float: left; margin-left: 0;">
    <div class="head">
-      <h1>Thông tin khóa đào tạo</h1>
+      <h1>Chi tiết đào tạo</h1>
    </div>
    <div class="inner">
       <form name="frmAddLearner" id="frmAddLearner" method="post" action="/orangehrm/symfony/web/index.php/training/viewLearners">
@@ -126,14 +189,6 @@ if (isset($_REQUEST['id'])) {
                <li>
                   <label>Tên khóa đào tạo</label>  
 				  <input id="txtlearnername" type="text" name="txtlearnername" value="<?php if(isset($_REQUEST['id'])) echo $learnername; ?>" />
-               </li>
-               <li>
-                  <label>Ngày bắt đầu</label>  
-				  <input id="txtstartdate" type="text" name="txtstartdate" class="calendar" value="<?php if(isset($_REQUEST['id'])) echo $startdate; else echo date('d-m-Y'); ?>" />
-               </li>
-               <li>
-                  <label>Ngày kết thúc</label>  
-				  <input id="txtenddate" type="text" name="txtenddate" class="calendar" value="<?php if(isset($_REQUEST['id'])) echo $enddate; else echo date('d-m-Y'); ?>" />
                </li>
                <li>
                   <label>Địa điểm đào tạo</label>  
@@ -194,12 +249,12 @@ if (isset($_REQUEST['id'])) {
 
     $(document).ready(function(){
         
-        var dateFieldValue = $.trim($("#txtstartdate").val());
+        var dateFieldValue = $.trim($("#txtfromdate").val());
         if (dateFieldValue == '') {
-            $("#txtstartdate").val(displayDateFormat);
+            $("#txtfromdate").val(displayDateFormat);
         }
 
-        daymarker.bindElement("#txtstartdate",
+        daymarker.bindElement("#txtfromdate",
         {
             showOn: "both",
             dateFormat: datepickerDateFormat,
@@ -211,23 +266,23 @@ if (isset($_REQUEST['id'])) {
             yearRange: "-100:+100",
             firstDay: 1,
             onClose: function() {
-                $("#txtstartdate").trigger('blur');
+                $("#txtfromdate").trigger('blur');
             }            
         });
         
-        $("#txtstartdate").click(function(){
-            daymarker.show("#txtstartdate");
+        $("#txtfromdate").click(function(){
+            daymarker.show("#txtfromdate");
             if ($(this).val() == displayDateFormat) {
                 $(this).val('');
             }
         });
 		
-		var dateFieldValue = $.trim($("#txtenddate").val());
+		var dateFieldValue = $.trim($("#txttodate").val());
         if (dateFieldValue == '') {
-            $("#txtenddate").val(displayDateFormat);
+            $("#txttodate").val(displayDateFormat);
         }
 
-        daymarker.bindElement("#txtenddate",
+        daymarker.bindElement("#txttodate",
         {
             showOn: "both",
             dateFormat: datepickerDateFormat,
@@ -239,12 +294,12 @@ if (isset($_REQUEST['id'])) {
             yearRange: "-100:+100",
             firstDay: 1,
             onClose: function() {
-                $("#txtenddate").trigger('blur');
+                $("#txttodate").trigger('blur');
             }            
         });
         
-        $("#txtenddate").click(function(){
-            daymarker.show("#txtenddate");
+        $("#txttodate").click(function(){
+            daymarker.show("#txttodate");
             if ($(this).val() == displayDateFormat) {
                 $(this).val('');
             }

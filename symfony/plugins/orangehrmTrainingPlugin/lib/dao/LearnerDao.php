@@ -13,7 +13,7 @@ class LearnerDao extends BaseDao {
 		$this->dbname = 'hondamient_hrm';
 	}
 	
-    public function getAllLearners($keyword, $sortfield, $sortorder) {
+	public function getAllEmps() {
         $conn = mysqli_connect($this->dbhost, $this->dbuser, $this->dbpass, $this->dbname);
 		if (!$conn) {
 			echo "Error: Unable to connect to MySQL" . PHP_EOL;
@@ -24,7 +24,35 @@ class LearnerDao extends BaseDao {
 			mysqli_set_charset($conn, "utf8");
 		}
 
-		$query = "select * from hieu_course c where (upper(c.course_name) like upper('%" . $keyword . "%') or upper(c.place) like upper('%" . $keyword . "%') or upper(c.organization) like upper('%" . $keyword . "%')) order by " . $sortfield . " " . $sortorder . ";";
+		$query = "select * from hs_hr_employee order by emp_lastname asc;";
+		$result = mysqli_query($conn, $query);
+		$rows = [];
+		while($row = mysqli_fetch_array($result))
+		{
+			$rows[] = $row;
+		}
+		return $rows;
+    }
+	
+    public function getAllLearners($courseid, $empnumber, $fromdate, $todate, $sortfield, $sortorder) {
+        $conn = mysqli_connect($this->dbhost, $this->dbuser, $this->dbpass, $this->dbname);
+		if (!$conn) {
+			echo "Error: Unable to connect to MySQL" . PHP_EOL;
+			echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
+			echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
+			exit;
+		} else {
+			mysqli_set_charset($conn, "utf8");
+		}
+
+		$query = "select * from hieu_course_detail a, hieu_course b, hs_hr_employee c 
+			where a.course_id = b.course_id 
+			and a.emp_number = c.emp_number 
+			and (a.course_id = ".$courseid." or ".$courseid." = 0) 
+			and (a.emp_number = ".$empnumber." or ".$empnumber." = 0) 
+			and b.start_date between '".$fromdate."' and '".$todate."' 
+			order by " . $sortfield . " " . $sortorder . ";";
+		
 		$result = mysqli_query($conn, $query);
 		$rows = [];
 		while($row = mysqli_fetch_array($result))

@@ -15,8 +15,12 @@ class LearnerService extends BaseService {
         $this->learnerDao = new LearnerDao();
     }
 	
-	public function getAllLearners($keyword, $sortfield, $sortorder) {
-        return $this->getLearnerDao()->getAllLearners($keyword, $sortfield, $sortorder);
+	public function getAllEmps() {
+        return $this->getLearnerDao()->getAllEmps();
+    }
+	
+	public function getAllLearners($courseid, $empnumber, $fromdate, $todate, $sortfield, $sortorder) {
+        return $this->getLearnerDao()->getAllLearners($courseid, $empnumber, $fromdate, $todate, $sortfield, $sortorder);
     }
 	
 	public function getLearner($id) {
