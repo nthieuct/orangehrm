@@ -1,14 +1,45 @@
+<!-- Confirmation box HTML: Begins -->
+<div class="modal hide" id="alertModal">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h3>OrangeHRM - Thông báo</h3>
+  </div>
+  <div class="modal-body" id="modal-body"></div>
+</div>
+<!-- Confirmation box HTML: Ends -->
+
 <?php
-if (isset($_POST['txtlearnerid'])) {
-	if ($_POST['txtlearnerid'] == '') {
-		$learner->addLearner($_POST['txtlearnername'], date('Y-m-d', strtotime($_POST['txtstartdate'])), date('Y-m-d', strtotime($_POST['txtenddate'])), $_POST['txtplace'], $_POST['txtorganization']);
+if (isset($_POST['txtcourseid'])) {
+	if ($_POST['txtcourseid'] == '') {
+		if ($learner->addLearner($_POST['cboCourse'], $_POST['cboEmp'], $_POST['txtresult'], $_POST['txtnote']) == 0) {
+		?>
+			<script type="text/javascript">
+				//$('#modal-body').html('<p>Không thể thêm mới</p>');
+				//$('#alertModal').modal('show');
+			</script>
+		<?php
+		}
 	} else {
-		$learner->updateLearner($_POST['txtlearnerid'], $_POST['txtlearnername'], date('Y-m-d', strtotime($_POST['txtstartdate'])), date('Y-m-d', strtotime($_POST['txtenddate'])), $_POST['txtplace'], $_POST['txtorganization']);
+		if ($learner->updateLearner($_POST['txtcourseid'], $_POST['txtempnumber'], $_POST['txtresult'], $_POST['txtnote']) == 0) {
+		?>
+			<script type="text/javascript">
+				//$('#modal-body').html('<p>Không thể cập nhật</p>');
+				//$('#alertModal').modal('show');
+			</script>
+		<?php
+		}
 	}
 }
 
-if (isset($_POST['txtlearneriddel'])) {
-	$learner->deleteLearner($_POST['txtlearneriddel']);
+if (isset($_POST['txtempnumberdel'])) {
+	if ($learner->deleteLearner($_POST['txtcourseiddel'], $_POST['txtempnumberdel']) == 0) {
+	?>
+		<script type="text/javascript">
+			//$('#modal-body').html('<p>Không thể xóa</p>');
+			//$('#alertModal').modal('show');
+		</script>
+	<?php
+	}
 }
 
 if (isset($_REQUEST['sortField']))
@@ -49,14 +80,11 @@ else if (isset($_REQUEST['s_todate']))
 else
 	$s_todate = date('31-12-Y');
 
-if (isset($_REQUEST['id'])) {
-	$rowC = $learner->getLearner($_REQUEST['id']);
-	foreach($rowC as $row) {
-		$learnername = $row['course_name'];
-		$startdate = date('d-m-Y', strtotime($row["start_date"]));
-		$enddate = date('d-m-Y', strtotime($row["end_date"]));
-		$place = $row['place'];
-		$organization = $row['organization'];
+if (isset($_REQUEST['courseid'])) {
+	$rowL = $learner->getLearner($_REQUEST['courseid'], $_REQUEST['empnumber']);
+	foreach($rowL as $row) {
+		$result = $row['result'];
+		$note = $row['note'];
 	}
 }
 ?>
@@ -152,8 +180,8 @@ if (isset($_REQUEST['id'])) {
 							$tr_class = "odd";
 						
 						echo '<tr class="'.$tr_class.'">
-							<td class="center"><a class="del" href="#" id="'.$row['course_id'].'"><i class="fas fa-trash"></i></a></td>
-							<td class="center"><a href="/orangehrm/symfony/web/index.php/training/viewLearners?id='.$row['course_id'].'"><i class="fas fa-edit"></i></a></td>
+							<td class="center"><a class="del" href="#" courseid="'.$row['course_id'].'" empnumber="'.$row['emp_number'].'"><i class="fas fa-trash"></i></a></td>
+							<td class="center"><a href="/orangehrm/symfony/web/index.php/training/viewLearners?courseid='.$row['course_id'].'&empnumber='.$row['emp_number'].'"><i class="fas fa-edit"></i></a></td>
 							<td class="left">'.$row['course_name'].'</td>
 							<td class="left">'.date('d-m-Y', strtotime($row["start_date"])).'</td>
 							<td class="left">'.date('d-m-Y', strtotime($row["end_date"])).'</td>
@@ -184,30 +212,62 @@ if (isset($_REQUEST['id'])) {
    <div class="inner">
       <form name="frmAddLearner" id="frmAddLearner" method="post" action="/orangehrm/symfony/web/index.php/training/viewLearners">
          <fieldset>
-            <input id="txtlearnerid" type="hidden" name="txtlearnerid" value="<?php if(isset($_REQUEST['id'])) echo $_REQUEST['id']; ?>" />
+            <input id="txtcourseid" type="hidden" name="txtcourseid" value="<?php if(isset($_REQUEST['courseid'])) echo $_REQUEST['courseid']; ?>" />
+			<input id="txtempnumber" type="hidden" name="txtempnumber" value="<?php if(isset($_REQUEST['courseid'])) echo $_REQUEST['empnumber']; ?>" />
 			<ol>
                <li>
-                  <label>Tên khóa đào tạo</label>  
-				  <input id="txtlearnername" type="text" name="txtlearnername" value="<?php if(isset($_REQUEST['id'])) echo $learnername; ?>" />
-               </li>
+				  <label>Khóa đào tạo</label>                        
+				  <select name="cboCourse" id="cboCourse"<?php if(isset($_REQUEST['courseid'])) echo ' disabled="disabled"'; ?>>
+					 <?php
+					 $rowCs = $course->getAllCourses('', 'c.course_name', 'asc');
+					 foreach($rowCs as $row) {
+						$sl = '';
+						if(isset($_REQUEST['courseid'])) {
+							if ($_REQUEST['courseid'] == $row['couurse_id'])
+								$sl = ' selected="selected"';
+						}
+						
+						echo '<option value="'.$row['course_id'].'"'.$sl.'>'.$row['course_name'].'</option>';
+					 }
+					 ?>
+				  </select>
+			   </li>
+			   <li>
+				  <label>Nhân viên</label>                        
+				  <select name="cboEmp" id="cboEmp"<?php if(isset($_REQUEST['courseid'])) echo ' disabled="disabled"'; ?>>
+					 <?php
+					 $rowEs = $learner->getAllEmps();
+					 foreach($rowEs as $row) {
+						$sl = '';
+						if(isset($_REQUEST['courseid'])) {
+							if ($_REQUEST['empnumber'] == $row['emp_number'])
+								$sl = ' selected="selected"';
+						}
+						
+						echo '<option value="'.$row['emp_number'].'"'.$sl.'>'.$row['emp_firstname'].' '.$row['emp_middle_name'].' '.$row['emp_lastname'].'</option>';
+					 }
+					 ?>
+				  </select>
+			   </li>
                <li>
-                  <label>Địa điểm đào tạo</label>  
-				  <input id="txtplace" type="text" name="txtplace" value="<?php if(isset($_REQUEST['id'])) echo $place; ?>" />
+                  <label>Kết quả</label>  
+				  <input id="txtresult" type="text" name="txtresult" value="<?php if(isset($_REQUEST['courseid'])) echo $result; ?>" />
                </li>
 			   <li>
-                  <label>Đơn vị đào tạo</label>  
-				  <input id="txtorganization" type="text" name="txtorganization" value="<?php if(isset($_REQUEST['id'])) echo $organization; ?>" />
+                  <label>Ghi chú</label>  
+				  <input id="txtnote" type="text" name="txtnote" value="<?php if(isset($_REQUEST['courseid'])) echo $note; ?>" />
                </li>
             </ol>
             <p>
-               <input type="submit" id="btnAdd" value="<?php if(isset($_REQUEST['id'])) echo 'Cập nhật'; else echo 'Thêm mới'; ?>" name="btnAdd" class="" />
+               <input type="submit" id="btnAdd" value="<?php if(isset($_REQUEST['courseid'])) echo 'Cập nhật'; else echo 'Thêm mới'; ?>" name="btnAdd" class="" />
                <input type="button" class="reset" id="btnRst" value="Thiết lập lại" name="btnRst" onclick="document.frmRst.submit();" />
             </p>
          </fieldset>
       </form>
 	  <form name="frmRst" id="frmRst" method="post" action="/orangehrm/symfony/web/index.php/training/viewLearners"></form>
 	  <form name="frmDel" id="frmDel" method="post" action="/orangehrm/symfony/web/index.php/training/viewLearners">
-	     <input id="txtlearneriddel" type="hidden" name="txtlearneriddel" value="0" />
+	     <input id="txtcourseiddel" type="hidden" name="txtcourseiddel" value="0" />
+		 <input id="txtempnumberdel" type="hidden" name="txtempnumberdel" value="0" />
 	  </form>
    </div>
 </div>
@@ -232,7 +292,8 @@ if (isset($_REQUEST['id'])) {
 
 <script type="text/javascript">
 	$('.del').click(function() {
-		$('#txtlearneriddel').val($(this).attr('id'));
+		$('#txtcourseiddel').val($(this).attr('courseid'));
+		$('#txtempnumberdel').val($(this).attr('empnumber'));
 		$('#deleteConfModal').modal('show');
 		return false;
 	});

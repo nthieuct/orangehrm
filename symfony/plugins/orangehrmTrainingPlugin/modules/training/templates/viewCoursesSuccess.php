@@ -1,14 +1,47 @@
+<!-- Confirmation box HTML: Begins -->
+<div class="modal hide" id="alertModal">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h3>OrangeHRM - Thông báo</h3>
+  </div>
+  <div class="modal-body" id="modal-body"></div>
+</div>
+<!-- Confirmation box HTML: Ends -->
+
 <?php
 if (isset($_POST['txtcourseid'])) {
 	if ($_POST['txtcourseid'] == '') {
-		$course->addCourse($_POST['txtcoursename'], date('Y-m-d', strtotime($_POST['txtstartdate'])), date('Y-m-d', strtotime($_POST['txtenddate'])), $_POST['txtplace'], $_POST['txtorganization']);
+		$slt = $course->addCourse($_POST['txtcoursename'], date('Y-m-d', strtotime($_POST['txtstartdate'])), date('Y-m-d', strtotime($_POST['txtenddate'])), $_POST['txtplace'], $_POST['txtorganization']);
+		echo $slt;
+		if ($slt == 0) {
+		?>
+			<script type="text/javascript">
+				//$('#modal-body').html('<p>Không thể thêm mới</p>');
+				//$('#alertModal').modal('show');
+			</script>
+		<?php
+		}
 	} else {
-		$course->updateCourse($_POST['txtcourseid'], $_POST['txtcoursename'], date('Y-m-d', strtotime($_POST['txtstartdate'])), date('Y-m-d', strtotime($_POST['txtenddate'])), $_POST['txtplace'], $_POST['txtorganization']);
+		if ($course->updateCourse($_POST['txtcourseid'], $_POST['txtcoursename'], date('Y-m-d', strtotime($_POST['txtstartdate'])), date('Y-m-d', strtotime($_POST['txtenddate'])), $_POST['txtplace'], $_POST['txtorganization']) == 0) {
+		?>
+			<script type="text/javascript">
+				//$('#modal-body').html('<p>Không thể cập nhật</p>');
+				//$('#alertModal').modal('show');
+			</script>
+		<?php
+		}
 	}
 }
 
 if (isset($_POST['txtcourseiddel'])) {
-	$course->deleteCourse($_POST['txtcourseiddel']);
+	if ($course->deleteCourse($_POST['txtcourseiddel']) == 0) {
+	?>
+		<script type="text/javascript">
+			//$('#modal-body').html('<p>Không thể xóa</p>');
+			//$('#alertModal').modal('show');
+		</script>
+	<?php
+	}
 }
 
 if (isset($_REQUEST['sortField']))

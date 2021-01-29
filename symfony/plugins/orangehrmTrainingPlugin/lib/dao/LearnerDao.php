@@ -18,7 +18,7 @@ class LearnerDao extends BaseDao {
 		if (!$conn) {
 			echo "Error: Unable to connect to MySQL" . PHP_EOL;
 			echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-			echo "Debugging error: " . mysqli_connect_error(). PHP_EOL;
+			echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
 			exit;
 		} else {
 			mysqli_set_charset($conn, "utf8");
@@ -62,18 +62,18 @@ class LearnerDao extends BaseDao {
 		return $rows;
     }
 	
-	public function getLearner($id) {
+	public function getLearner($courseid, $empnumber) {
         $conn = mysqli_connect($this->dbhost, $this->dbuser, $this->dbpass, $this->dbname);
 		if (!$conn) {
 			echo "Error: Unable to connect to MySQL" . PHP_EOL;
 			echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-			echo "Debugging error: " . mysqli_connect_error(). PHP_EOL;
+			echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
 			exit;
 		} else {
 			mysqli_set_charset($conn, "utf8");
 		}
 
-		$query = "select * from hieu_course c where c.course_id = ".$id.";";
+		$query = "select * from hieu_course_detail where course_id = ".$courseid." and emp_number = ".$empnumber.";";
 		$result = mysqli_query($conn, $query);
 		$rows = [];
 		while($row = mysqli_fetch_array($result))
@@ -83,7 +83,7 @@ class LearnerDao extends BaseDao {
 		return $rows;
     }
 	
-	public function addLearner($learnername, $startdate, $enddate, $place, $organization) {
+	public function addLearner($courseid, $empnumber, $result, $note) {
         $conn = mysqli_connect($this->dbhost, $this->dbuser, $this->dbpass, $this->dbname);
 		if (!$conn) {
 			echo "Error: Unable to connect to MySQL" . PHP_EOL;
@@ -94,11 +94,12 @@ class LearnerDao extends BaseDao {
 			mysqli_set_charset($conn, "utf8");
 		}
 
-		$query = "insert into hieu_course values (null, '".$learnername."', '".$startdate."', '".$enddate."', '".$place."', '".$organization."');";
-		mysqli_query($conn, $query);
+		$query = "insert into hieu_course_detail values (".$courseid.", ".$empnumber.", '".$result."', '".$note."');";
+		$result = mysqli_query($conn, $query);
+		return mysqli_num_rows($result);
     }
 	
-	public function updateLearner($learnerid, $learnername, $startdate, $enddate, $place, $organization) {
+	public function updateLearner($courseid, $empnumber, $result, $note) {
         $conn = mysqli_connect($this->dbhost, $this->dbuser, $this->dbpass, $this->dbname);
 		if (!$conn) {
 			echo "Error: Unable to connect to MySQL" . PHP_EOL;
@@ -109,11 +110,12 @@ class LearnerDao extends BaseDao {
 			mysqli_set_charset($conn, "utf8");
 		}
 
-		$query = "update hieu_course set course_name = '".$learnername."', start_date = '".$startdate."', end_date = '".$enddate."', place = '".$place."', organization = '".$organization."' where course_id = ".$learnerid.";";
-		mysqli_query($conn, $query);
+		$query = "update hieu_course_detail set result = '".$result."', note = '".$note."' where course_id = ".$courseid." and emp_number = ".$empnumber.";";
+		$result = mysqli_query($conn, $query);
+		return mysqli_num_rows($result);
     }
 	
-	public function deleteLearner($id) {
+	public function deleteLearner($courseid, $empnumber) {
         $conn = mysqli_connect($this->dbhost, $this->dbuser, $this->dbpass, $this->dbname);
 		if (!$conn) {
 			echo "Error: Unable to connect to MySQL" . PHP_EOL;
@@ -124,8 +126,9 @@ class LearnerDao extends BaseDao {
 			mysqli_set_charset($conn, "utf8");
 		}
 
-		$query = "delete from hieu_course where course_id = ".$id.";";
-		mysqli_query($conn, $query);
+		$query = "delete from hieu_course_detail where course_id = ".$courseid." and emp_number = ".$empnumber.";";
+		$result = mysqli_query($conn, $query);
+		return mysqli_num_rows($result);
     }
 }
 ?>
