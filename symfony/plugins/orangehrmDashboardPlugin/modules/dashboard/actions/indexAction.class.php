@@ -78,7 +78,7 @@ class indexAction extends BaseDashboardAction {
                     'name' => 'Employee Distribution by Subunit',
                     'attributes' => array(
                         'width' => 300,
-                        'height' => 281,
+                        'height' => 300,
                         'module_name' => 'dashboard',
                         'action_name' => 'employeeDistribution',
                         'top' => 0,
@@ -90,7 +90,7 @@ class indexAction extends BaseDashboardAction {
                     'name' => 'Legend',
                     'attributes' => array(
                         'width' => 300,
-                        'height' => 281,
+                        'height' => 300,
                         'module_name' => 'dashboard',
                         'action_name' => 'baseLegend',
                         'top' => 0,
@@ -102,7 +102,7 @@ class indexAction extends BaseDashboardAction {
                     'name' => 'Pending Leave Requests',
                     'attributes' => array(
                         'width' => 300,
-                        'height' => 281,
+                        'height' => 300,
                         'module_name' => 'dashboard',
                         'action_name' => 'pendingLeaveRequests',
                         'top' => 0,
@@ -115,7 +115,7 @@ class indexAction extends BaseDashboardAction {
                     'name' => 'Pending Leave Requests',
                     'attributes' => array(
                         'width' => 300,
-                        'height' => 281,
+                        'height' => 300,
                         'module_name' => 'dashboard',
                         'action_name' => 'pendingLeaveRequests',
                         'top' => 0,
@@ -128,7 +128,7 @@ class indexAction extends BaseDashboardAction {
         $graphPanel = array(
             'attributes' => array('title' => "",
                 'width' => 1100,
-                'height' => 300,
+                'height' => 350,
                 'permissions' => array(1, 3)),
             'name' => 'Graphs',
             'panels' => $allowedPanels

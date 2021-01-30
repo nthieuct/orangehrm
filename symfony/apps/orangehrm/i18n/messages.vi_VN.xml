@@ -158,7 +158,7 @@
       </trans-unit>
       <trans-unit id="39">
         <source>Apply</source>
-        <target>Gửi đơn</target>
+        <target>Đăng ký</target>
       </trans-unit>
       <trans-unit id="40">
         <source>April</source>
@@ -846,11 +846,11 @@
       </trans-unit>
       <trans-unit id="211">
         <source>Define Report</source>
-        <target>Xác định Báo cáo</target>
+        <target>Định nghĩa Báo cáo</target>
       </trans-unit>
       <trans-unit id="212">
         <source>Defined Custom Fields</source>
-        <target>Xác định Tuỳ chỉnh lĩnh vực</target>
+        <target>Định nghĩa trường tùy chọn</target>
       </trans-unit>
       <trans-unit id="213">
         <source>Delaware</source>
@@ -2615,7 +2615,7 @@
       </trans-unit>
       <trans-unit id="653">
         <source>OrangeHRM - Confirmation Required</source>
-        <target>OrangeHRM - Yêu cầu xác nhận</target>
+        <target>HRM - Yêu cầu xác nhận</target>
       </trans-unit>
       <trans-unit id="654">
         <source>Oregon</source>
@@ -4535,11 +4535,11 @@
       </trans-unit>
       <trans-unit id="1133">
         <source>Leave Entitlements and Usage Report</source>
-        <target/>
+        <target>Báo cáo sử dụng và quyền lợi nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1134">
         <source>My Leave Entitlements and Usage Report</source>
-        <target/>
+        <target>Báo cáo sử dụng và quyền lợi nghỉ phép của tôi</target>
       </trans-unit>
       <trans-unit id="1135">
         <source>Matching Employees</source>
@@ -4547,7 +4547,7 @@
       </trans-unit>
       <trans-unit id="1136">
         <source>Generate For</source>
-        <target/>
+        <target>Xem theo</target>
       </trans-unit>
       <trans-unit id="1137">
         <source>Confirm</source>
@@ -4619,7 +4619,7 @@
       </trans-unit>
       <trans-unit id="1154">
         <source>About</source>
-        <target/>
+        <target>Giới thiệu</target>
       </trans-unit>
       <trans-unit id="1155">
         <source>Trackers</source>
@@ -5303,7 +5303,7 @@
       </trans-unit>
       <trans-unit id="1325">
         <source>Apply Leave</source>
-        <target>Gửi đơn xin nghỉ</target>
+        <target>Đăng ký nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1326">
         <source>My Timesheet</source>
@@ -6059,7 +6059,7 @@
       </trans-unit>
       <trans-unit id="1514">
         <source>Are you sure you want to remove job vacancy of the candidate</source>
-        <target>Bạn có chắc bạn muốn loại bỏ vị trí tuyển dụng việc làm của ứng viên</target>
+        <target>Bạn có chắc bạn muốn loại bỏ vị trí ứng tuyển của ứng viên</target>
       </trans-unit>
       <trans-unit id="1515">
         <source>as failed</source>
@@ -6095,7 +6095,7 @@
       </trans-unit>
       <trans-unit id="1523">
         <source>Cannot assign same interviewer twice</source>
-        <target>Không thể chỉ định người phỏng vấn cùng một hai lần</target>
+        <target>Không thể chỉ định cùng một người phỏng vấn hai lần</target>
       </trans-unit>
       <trans-unit id="1524">
         <source>Cannot assign same vacancy twice</source>
@@ -6367,19 +6367,19 @@
       </trans-unit>
       <trans-unit id="1591">
         <source>Current Leave Period</source>
-        <target>Leave Thời gian hiện tại</target>
+        <target>Chu kỳ nghỉ phép hiện tại</target>
       </trans-unit>
       <trans-unit id="1592">
         <source>Date format should be</source>
-        <target>Định dạng ngày nên được</target>
+        <target>Định dạng ngày phải là</target>
       </trans-unit>
       <trans-unit id="1593">
         <source>Define Leave Type</source>
-        <target>Xác định lại Loại</target>
+        <target>Định nghĩa loại nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1594">
         <source>Duration (Hours)</source>
-        <target>Thời gian (giờ)</target>
+        <target>Thời lượng (giờ)</target>
       </trans-unit>
       <trans-unit id="1595">
         <source>Following Year</source>
@@ -6391,7 +6391,7 @@
       </trans-unit>
       <trans-unit id="1597">
         <source>For Non-Leap Years</source>
-        <target>Không Leap Years</target>
+        <target>Năm không nhuận</target>
       </trans-unit>
       <trans-unit id="1598">
         <source>From Date</source>
@@ -6403,11 +6403,11 @@
       </trans-unit>
       <trans-unit id="1600">
         <source>From time should be less than To time</source>
-        <target/>
+        <target>Giờ bắt đầu phải nhỏ hơn giờ kết thúc</target>
       </trans-unit>
       <trans-unit id="1601">
         <source>Full Day</source>
-        <target>Full Day</target>
+        <target>Cả ngày</target>
       </trans-unit>
       <trans-unit id="1602">
         <source>Go to Detailed View</source>
@@ -6431,11 +6431,11 @@
       </trans-unit>
       <trans-unit id="1607">
         <source>Leave Entitled</source>
-        <target>Để lại tiêu đề</target>
+        <target>Quyền lợi nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1608">
         <source>Leave Period Does Not Exist</source>
-        <target>Để lại Thời gian không không tồn tại</target>
+        <target>Chu kỳ nghỉ phép không không tồn tại</target>
       </trans-unit>
       <trans-unit id="1609">
         <source>Leave Request</source>
@@ -6447,7 +6447,7 @@
       </trans-unit>
       <trans-unit id="1611">
         <source>Leave Taken</source>
-        <target>Để lại Taken</target>
+        <target>Nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1612">
         <source>Leave Type</source>
@@ -6455,7 +6455,7 @@
       </trans-unit>
       <trans-unit id="1613">
         <source>Leave type will be undeleted</source>
-        <target>Loại để lại sẽ được bỏ xoá</target>
+        <target>Loại nghỉ phép không được xóa</target>
       </trans-unit>
       <trans-unit id="1614">
         <source>My Leave Details</source>
@@ -6463,15 +6463,15 @@
       </trans-unit>
       <trans-unit id="1615">
         <source>My Leave List</source>
-        <target>Danh sách của tôi Leave</target>
+        <target>Danh sách nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1616">
         <source>Name of Holiday</source>
-        <target>Tên của khách sạn Holiday</target>
+        <target>Tên kỳ nghỉ</target>
       </trans-unit>
       <trans-unit id="1617">
         <source>No Leave Types with Leave Balance</source>
-        <target>Không có loại Leave Balance Leave</target>
+        <target>Không có loại nghỉ với trung bình nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1618">
         <source>No of Hours</source>
@@ -6479,11 +6479,11 @@
       </trans-unit>
       <trans-unit id="1619">
         <source>Non Working Day</source>
-        <target>Không làm việc ngày</target>
+        <target>Ngày nghỉ</target>
       </trans-unit>
       <trans-unit id="1620">
         <source>Non-working Day</source>
-        <target>-Ngày làm việc</target>
+        <target>Ngày nghỉ</target>
       </trans-unit>
       <trans-unit id="1621">
         <source>Number of Days</source>
@@ -6499,7 +6499,7 @@
       </trans-unit>
       <trans-unit id="1624">
         <source>Show Leave with Status</source>
-        <target>Hiện Để lại với trạng thái</target>
+        <target>Hiện nghỉ phép với trạng thái</target>
       </trans-unit>
       <trans-unit id="1625">
         <source>Taken</source>
@@ -6507,7 +6507,7 @@
       </trans-unit>
       <trans-unit id="1626">
         <source>Overlapping Leave Request Found</source>
-        <target>Chồng chéo Leave Yêu cầu được tìm thấy</target>
+        <target>Phát hiện yêu cầu nghỉ phép chồng chéo</target>
       </trans-unit>
       <trans-unit id="1627">
         <source>This is a deleted leave type. Reactivate it?</source>
@@ -6547,7 +6547,7 @@
       </trans-unit>
       <trans-unit id="1636">
         <source>Failed to Submit: Leave Balance Exceeded</source>
-        <target>Không để gửi: Để cân bằng vượt quá</target>
+        <target>Gửi thất bại: Vượt quá số dư ngày nghỉ</target>
       </trans-unit>
       <trans-unit id="1637">
         <source>Should be less than work shift length</source>
@@ -6555,11 +6555,11 @@
       </trans-unit>
       <trans-unit id="1638">
         <source>Leave Period Not Defined</source>
-        <target>Để lại Không Xác định Thời gian</target>
+        <target>Chu kỳ nghỉ chưa được định nghĩa</target>
       </trans-unit>
       <trans-unit id="1639">
         <source>Full Day/Half Day</source>
-        <target>Day / Nửa ngày</target>
+        <target>Cả ngày / Nửa ngày</target>
       </trans-unit>
       <trans-unit id="1640">
         <source>Leave Request (%date_range%) %name%</source>
@@ -6583,19 +6583,19 @@
       </trans-unit>
       <trans-unit id="1645">
         <source>Entitlement Type</source>
-        <target/>
+        <target>Loại quyền lợi</target>
       </trans-unit>
       <trans-unit id="1646">
         <source>Updating Entitlement</source>
-        <target/>
+        <target>Cập nhật quyền lợi</target>
       </trans-unit>
       <trans-unit id="1647">
         <source>Leave Entitlements (Days)</source>
-        <target/>
+        <target>Quyền lợi nghỉ phép (ngày)</target>
       </trans-unit>
       <trans-unit id="1648">
         <source>Current Leave Balance (Days)</source>
-        <target/>
+        <target>Số ngày còn dư hiện tại</target>
       </trans-unit>
       <trans-unit id="1649">
         <source>Is entitlement situational</source>
@@ -6603,7 +6603,7 @@
       </trans-unit>
       <trans-unit id="1650">
         <source>Edit Leave Entitlement</source>
-        <target/>
+        <target>Chỉnh sửa quyền lợi nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1651">
         <source>The selected leave entitlement will be applied to the following employees.</source>
@@ -6611,11 +6611,11 @@
       </trans-unit>
       <trans-unit id="1652">
         <source>Old Entitlement</source>
-        <target/>
+        <target>Quyền lợi cũ</target>
       </trans-unit>
       <trans-unit id="1653">
         <source>New Entitlement</source>
-        <target/>
+       <target>Quyền lợi mới</target>
       </trans-unit>
       <trans-unit id="1654">
         <source>Used amount exceeds the current amount</source>
@@ -6623,19 +6623,19 @@
       </trans-unit>
       <trans-unit id="1655">
         <source>Leave Balance Details</source>
-        <target/>
+       <target>Chi tiết</target>
       </trans-unit>
       <trans-unit id="1656">
         <source>Entitled</source>
-        <target/>
+        <target>Quyền lợi</target>
       </trans-unit>
       <trans-unit id="1657">
         <source>Used</source>
-        <target/>
+        <target>Đã sử dụng</target>
       </trans-unit>
       <trans-unit id="1658">
         <source>Balance</source>
-        <target/>
+        <target>Còn lại</target>
       </trans-unit>
       <trans-unit id="1659">
         <source>Duration should be less than work shift length</source>
@@ -8059,7 +8059,7 @@
       </trans-unit>
       <trans-unit id="2014">
         <source>Leave Pending Approval (Days)</source>
-        <target/>
+        <target>Nghỉ phép chờ duyệt (Ngày)</target>
       </trans-unit>
       <trans-unit id="2015">
         <source>Existing Entitlement value %oldvalue% will be updated to %newvalue%</source>
@@ -8079,7 +8079,7 @@
       </trans-unit>
       <trans-unit id="2019">
         <source>Users who seek access to their data, or who seek to correct, amend, or delete the given information should direct their requests to Data@orangehrm.com with the subject "Purge Records (Instance Identifier : %instanceid%)".</source>
-        <target/>
+        <target>   </target>
       </trans-unit>
       <trans-unit id="2020">
         <source>Language Packages</source>
@@ -8149,6 +8149,27 @@
         <source>Failed to Export</source>
         <target>Xuất dữ liệu thất bại</target>
       </trans-unit>
+      <trans-unit id="2037">
+        <source>Candidate Records</source>
+        <target>Hồ sơ ứng viên</target>
+      </trans-unit>
+      <trans-unit id="2038">
+        <source>Company Name</source>
+        <target>Tên đơn vị</target>
+      </trans-unit>
+      <trans-unit id="2039">
+        <source>Version</source>
+        <target>Phiên bản</target>
+      </trans-unit>
+      <trans-unit id="2040">
+        <source>Active Employees</source>
+        <target>Nhân viên hoạt động</target>
+      </trans-unit>
+      <trans-unit id="2041">
+        <source>Employees Terminated</source>
+        <target>Nhân viên đã nghỉ</target>
+      </trans-unit>      
+      
     </body>
   </file>
 </xliff>

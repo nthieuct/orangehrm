@@ -38,7 +38,7 @@ const MESSEGE = 'Users who seek access to their data, or who seek to correct, am
                 </fieldset>
                 <div class="input-field col s12 m12 l4">
                     <br>
-                    <input type="submit" value=<?php echo __('Verify'); ?>>
+                    <input type="submit" value="<?php echo __('Verify'); ?>">
                 </div>
             </div>
         </form>
