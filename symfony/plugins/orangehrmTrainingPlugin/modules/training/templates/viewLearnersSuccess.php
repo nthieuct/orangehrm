@@ -91,7 +91,7 @@ if (isset($_REQUEST['courseid'])) {
 
 <link rel="stylesheet" type="text/css" media="all" href="/orangehrm/symfony/web/webres_5fa517042fb5e3.16670395/themes/default/css/orangehrm.datepicker.css" />
 
-<div style="width: 63%; float: left;">
+<div style="width: 78%; float: left;">
 	<div class="box searchForm toggableForm" id="srchLearners">
 	   <div class="head">
 		  <h1>Thông tin đào tạo</h1>
@@ -205,7 +205,7 @@ if (isset($_REQUEST['courseid'])) {
 	</div>
 </div>
 
-<div class="box addForm toggableForm" id="addLearner" style="width: 35%; float: left; margin-left: 0;">
+<div class="box addForm toggableForm" id="addLearner" style="width: 20%; float: left; margin-left: 0;">
    <div class="head">
       <h1>Chi tiết đào tạo</h1>
    </div>
