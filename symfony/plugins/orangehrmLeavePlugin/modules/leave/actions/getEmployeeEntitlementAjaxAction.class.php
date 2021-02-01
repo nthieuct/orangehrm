@@ -41,7 +41,15 @@ class getEmployeeEntitlementAjaxAction  extends sfAction {
     }
     
     protected function getEmployeeEntitlement($parameters) {
+		
+			$conn = Doctrine_Manager::connection();
+			$conn->beginTransaction();
+			$pdo = Doctrine_Manager::getInstance()->getCurrentConnection()->getDbh();
 
+		
+			$empNumber = $parameters['empId'];
+			$oldworker = $parameters['oldworker'];
+			
             $localizationService = new LocalizationService();
             $inputDatePattern = sfContext::getInstance()->getUser()->getDateFormat();
             
@@ -58,6 +66,56 @@ class getEmployeeEntitlementAjaxAction  extends sfAction {
             $entitlementList = $this->getEntitlementService()->searchLeaveEntitlements( $leaveEntitlementSearchParameterHolder );
             $oldValue = 0;
             $newValue = $parameters['ent'];
+			
+            
+            foreach ($entitlementList as $existingEntitlement) {
+                $oldValue += $existingEntitlement->getNoOfDays();
+            }
+            
+            return array($oldValue, $newValue + $oldValue);
+        
+    }
+	
+	    protected function getEmployeeEntitlementOldWorker($parameters) {
+			
+			$conn = Doctrine_Manager::connection();
+			$conn->beginTransaction();
+			$pdo = Doctrine_Manager::getInstance()->getCurrentConnection()->getDbh();
+
+		
+			$empNumber = $parameters['empId'];
+
+			$selectQuery = "SELECT econ_extend_start_date FROM hs_hr_emp_contract_extend WHERE emp_number=?";
+			$selectStmt = $pdo->prepare($selectQuery);
+			$selectStmt->execute([$empNumber]);
+			$result = $selectStmt->fetch();
+					
+			$timeFromWork = $result[0];
+			
+				
+			$timeFromWorkToInt = strtotime($timeFromWork);
+			$timeCurrent = time();
+			$intervalTime = $timeCurrent - $timeFromWorkToInt;
+			$addDays = floor(floor($intervalTime/31622400)/5);
+		
+
+            $localizationService = new LocalizationService();
+            $inputDatePattern = sfContext::getInstance()->getUser()->getDateFormat();
+            
+            $fromDate = $localizationService->convertPHPFormatDateToISOFormatDate($inputDatePattern, $parameters['fd']);
+            $toDate = $localizationService->convertPHPFormatDateToISOFormatDate($inputDatePattern, $parameters['td']);
+            
+            $leaveEntitlementSearchParameterHolder = new LeaveEntitlementSearchParameterHolder();
+            $leaveEntitlementSearchParameterHolder->setEmpNumber($parameters['empId']);
+            $leaveEntitlementSearchParameterHolder->setFromDate($fromDate);
+            $leaveEntitlementSearchParameterHolder->setLeaveTypeId($parameters['lt']);
+            $leaveEntitlementSearchParameterHolder->setToDate($toDate);
+            
+            
+            $entitlementList = $this->getEntitlementService()->searchLeaveEntitlements( $leaveEntitlementSearchParameterHolder );
+            $oldValue = 0;
+            $newValue = $parameters['ent'] + $addDays;
+			
             
             foreach ($entitlementList as $existingEntitlement) {
                 $oldValue += $existingEntitlement->getNoOfDays();
@@ -70,9 +128,15 @@ class getEmployeeEntitlementAjaxAction  extends sfAction {
     public function execute($request) {
         sfConfig::set('sf_web_debug', false);
         sfConfig::set('sf_debug', false);
-        
-        $employees = $this->getEmployeeEntitlement($request->getGetParameters());
-
+		$para = $request->getGetParameters();
+		$oldworker = $para['oldworker'];
+		if($oldworker == 1){
+			$employees = $this->getEmployeeEntitlementOldWorker($para);
+		}
+		else
+		{
+			$employees = $this->getEmployeeEntitlement($para);
+		};
 
         $response = $this->getResponse();
         $response->setHttpHeader('Expires', '0');

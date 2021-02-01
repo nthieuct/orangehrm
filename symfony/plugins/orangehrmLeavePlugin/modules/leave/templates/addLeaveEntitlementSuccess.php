@@ -38,11 +38,15 @@ use_stylesheets_for_form($form);
     </div>
     <div class="inner">
         <?php include_partial('global/flash_messages'); ?>
+		
+	
         <form id="frmLeaveEntitlementAdd" name="frmLeaveEntitlementAdd" method="post" action="">
-
-            <fieldset>                
+		
+		
+           <fieldset>                
                 <ol>
                     <?php echo $form->render(); ?>
+	
                     
                     <li class="required">
                         <em>*</em> <?php echo __(CommonMessages::REQUIRED_FIELD); ?>
@@ -149,6 +153,7 @@ use_stylesheets_for_form($form);
     var lang_BulkAssignPleaseWait = '<?php echo __js('Bulk Assigning Leave Entitlement to %count% Employees. Please Wait');?>';
     var lang_PleaseWait = '<?php echo __js('Assigning Leave Entitlement. Please Wait');?>';
     var lang_ExistingEntitlement = '<?php echo __js('Existing Entitlement value %oldvalue% will be updated to %newvalue%');?>';
+
         
     var filterMatchingEmployees = 0;
     

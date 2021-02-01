@@ -96,6 +96,11 @@ class LeaveEntitlementService extends BaseService {
 
         return $this->getLeaveEntitlementDao()->saveLeaveEntitlement($leaveEntitlement);
     }
+	
+	public function saveLeaveEntitlementOld(LeaveEntitlement $leaveEntitlement) {
+
+        return $this->getLeaveEntitlementDao()->saveLeaveEntitlementOld($leaveEntitlement);
+    }
     
     /**
      * Save Leave Adjustment and linked to relevent leave entitlement 
@@ -145,6 +150,10 @@ class LeaveEntitlementService extends BaseService {
         return $this->getLeaveEntitlementDao()->bulkAssignLeaveEntitlements($employeeNumbers, $leaveEntitlement);
     }
     
+	public function bulkAssignLeaveEntitlement($employeeNumbers, LeaveEntitlement $leaveEntitlement) {
+        return $this->getLeaveEntitlementDao()->bulkAssignLeaveEntitlement($employeeNumbers, $leaveEntitlement);
+    }
+	
     public function getAvailableEntitlements(LeaveParameterObject $leaveParameterObject) {
         return $this->getLeaveEntitlementStrategy()->getAvailableEntitlements($leaveParameterObject);
     }

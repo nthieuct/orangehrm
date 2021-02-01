@@ -83,9 +83,9 @@ class getFilteredEmployeesEntitlementAjaxAction  extends sfAction {
             $oldValue = 0;
 
             if(count($entitlementList) > 0){
-                $existingLeaveEntitlement = $entitlementList->getFirst();
+				$existingLeaveEntitlement = $entitlementList->getFirst();
                 $oldValue = $existingLeaveEntitlement->getNoOfDays();
-                
+
             } 
 
             $names[] = array($employee['firstName'] . ' ' . $employee['middleName'] . ' ' . $employee['lastName'],$oldValue,$newValue+$oldValue);
@@ -99,13 +99,93 @@ class getFilteredEmployeesEntitlementAjaxAction  extends sfAction {
         
         return $data;
     }
-    
-    public function execute($request) {
+	
+	
+    protected function getMatchingEmployeesOldWorker($parameters) {
+		
+
+ 
+  
+
+        $parameterHolder = new EmployeeSearchParameterHolder();
+        $filters = array('location' => $parameters['location'],
+            'sub_unit' => $parameters['subunit']);
+
+        $fromDate = isset($parameters['fd']) ? $parameters['fd'] : null;
+        $toDate =  isset($parameters['td']) ? $parameters['td'] : null;
+        $leaveType =  isset($parameters['lt']) ? $parameters['lt'] : null;
+        $newValue =  isset($parameters['ent']) ? $parameters['ent'] : null;
+        $offset = isset($parameters['offset']) ? $parameters['offset'] : 0;
+        $pageSize = sfConfig::get('app_items_per_page');
+
+        $parameterHolder->setFilters($filters);
+        $parameterHolder->setOffset($offset);
+        $parameterHolder->setLimit($pageSize);
+        $parameterHolder->setReturnType(EmployeeSearchParameterHolder::RETURN_TYPE_ARRAY);
+        
+        $employees = $this->getEmployeeService()->searchEmployees($parameterHolder);
+            
+        $names = array();
+       
+        foreach($employees as $employee) {
+			$conn = Doctrine_Manager::connection();
+			$conn->beginTransaction();
+			$pdo = Doctrine_Manager::getInstance()->getCurrentConnection()->getDbh();
+			$empNumber = $employee['empNumber'];
+			$selectQuery = "SELECT econ_extend_start_date FROM hs_hr_emp_contract_extend WHERE emp_number=?";
+			$selectStmt = $pdo->prepare($selectQuery);
+			$selectStmt->execute([$empNumber]);
+			$result = $selectStmt->fetch();
+					
+			$timeFromWork = $result[0];
+			$timeFromWorkToInt = strtotime($timeFromWork);
+			$timeCurrent = time();
+			$intervalTime = $timeCurrent - $timeFromWorkToInt;
+			$addDays = floor(floor($intervalTime/31622400)/5);
+                                    
+            $leaveEntitlementSearchParameterHolder = new LeaveEntitlementSearchParameterHolder();
+            $leaveEntitlementSearchParameterHolder->setEmpNumber($employee['empNumber']);
+            $leaveEntitlementSearchParameterHolder->setFromDate($fromDate);
+            $leaveEntitlementSearchParameterHolder->setLeaveTypeId($leaveType);
+            $leaveEntitlementSearchParameterHolder->setToDate($toDate);
+            
+            $entitlementList = $this->getEntitlementService()->searchLeaveEntitlements( $leaveEntitlementSearchParameterHolder );
+            $oldValue = 0;
+
+            if(count($entitlementList) > 0){
+				$existingLeaveEntitlement = $entitlementList->getFirst();
+                $oldValue = $existingLeaveEntitlement->getNoOfDays();
+
+            } 
+
+            $names[] = array($employee['firstName'] . ' ' . $employee['middleName'] . ' ' . $employee['lastName'],$oldValue,$newValue+$oldValue+$addDays);
+        }        
+
+        $data = array(
+            'offset' => $offset,
+            'pageSize' => $pageSize,
+            'data' => $names
+        );
+        
+        return $data;
+    }	
+	
+ 
+	
+     public function execute($request) {
         sfConfig::set('sf_web_debug', false);
         sfConfig::set('sf_debug', false);
-        
-        $employees = $this->getMatchingEmployees($request->getGetParameters());
-
+		
+		
+		$parameters = $request->getGetParameters();
+		$oldworker = $parameters['oldworker'];
+		if($oldworker == 1){
+			$employees = $this->getMatchingEmployeesOldWorker($parameters);
+		}
+		else
+		{
+			$employees = $this->getMatchingEmployees($parameters);
+		};
 
         $response = $this->getResponse();
         $response->setHttpHeader('Expires', '0');

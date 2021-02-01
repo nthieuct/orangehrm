@@ -36,6 +36,10 @@ class LeaveEntitlementAddForm extends LeaveEntitlementForm {
             BasicUserRoleManager::PERMISSION_TYPE_ACTION => array('add_entitlements'));
         $employeeWidget = $this->getWidget('employee');
         $employeeWidget->setOption('requiredPermissions', $requiredPermissions);
+		
+
+		
+		
         $this->setWidget('employee', $employeeWidget);
         
         $this->setWidget('id', new sfWidgetFormInputHidden());
@@ -48,6 +52,11 @@ class LeaveEntitlementAddForm extends LeaveEntitlementForm {
         $this->setValidator('entitlement', new sfValidatorNumber(array('required' => true)));
         
         $this->getWidgetSchema()->setLabels($this->getFormLabels());
+		
+		$this->setWidget('oldworker', new sfWidgetFormInputCheckbox(array('value_attribute_value' => "checked")));
+		$this->setValidator('oldworker', new sfValidatorString(array('required' => false)));
+
+
 
         $this->widgetSchema->setLabel('filters', '&nbsp;');        
     

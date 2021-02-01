@@ -66,7 +66,20 @@
 
             params = params + '&' + name + '=' + value;
         });
-        params = params + '&offset=' + offset + '&lt=' + $('#entitlements_leave_type').val() + '&fd='+$('#date_from').val()+ '&td='+ $('#date_to').val()+'&ent='+$('#entitlements_entitlement').val();
+		
+		
+		if($('#entitlements_oldworker').is(":checked")){
+			params = params + '&offset=' + offset + '&lt=' + $('#entitlements_leave_type').val() + '&fd='+$('#date_from').val()+ '&td='+ $('#date_to').val()+'&ent='+$('#entitlements_entitlement').val()+'&oldworker=1';
+		} 
+		else 
+		{
+
+			params = params + '&offset=' + offset + '&lt=' + $('#entitlements_leave_type').val() + '&fd='+$('#date_from').val()+ '&td='+ $('#date_to').val()+'&ent='+$('#entitlements_entitlement').val()+'&oldworker=0';
+		};
+		
+	
+
+
         $.ajax({
             type: 'GET',
             url: getEmployeeUrl,
@@ -159,13 +172,19 @@
                         $('#preview').modal();
                     }
                 }
-            } else {
+            } 
+			else 
+			{
                 if(!($('#entitlements_id').val() > 0)){
                     var valid = $('#frmLeaveEntitlementAdd').valid();
                         if (valid) {   
                             var params = '';
+							if($('#entitlements_oldworker').is(":checked")){
+							    params = 'empId='+$('#entitlements_employee_empId').val()+'&lt=' + $('#entitlements_leave_type').val() + '&fd='+$('#date_from').val()+ '&td='+ $('#date_to').val()+'&ent='+$('#entitlements_entitlement').val()+'&oldworker=1';
+							} else {
 
-                            params = 'empId='+$('#entitlements_employee_empId').val()+'&lt=' + $('#entitlements_leave_type').val() + '&fd='+$('#date_from').val()+ '&td='+ $('#date_to').val()+'&ent='+$('#entitlements_entitlement').val();
+								params = 'empId='+$('#entitlements_employee_empId').val()+'&lt=' + $('#entitlements_leave_type').val() + '&fd='+$('#date_from').val()+ '&td='+ $('#date_to').val()+'&ent='+$('#entitlements_entitlement').val()+'&oldworker=0';
+							}
 
                             $.ajax({
                                 type: 'GET',
@@ -184,7 +203,9 @@
                                         var html = '<span>' + lang_ExistingEntitlement + '</span>'
                                         $('ol#employee_entitlement_update').append(html);
                                         $('#employeeEntitlement').modal();
-                                    }else{
+                                    }
+									else
+									{
                                         var loadingMsg = lang_PleaseWait + '...';
                                         showProgressDialog(loadingMsg);                                            
                                         $('#frmLeaveEntitlementAdd').submit();
@@ -195,7 +216,9 @@
 
                         }
 
-                    }else{
+                    }
+					else
+					{
                         $('#frmLeaveEntitlementAdd').submit();
                     }
             }

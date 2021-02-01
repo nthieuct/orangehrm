@@ -115,6 +115,11 @@ class viewLeaveEntitlementsAction extends baseLeaveAction {
         $this->showResultTable = $this->showResultTableByDefault();
         
         $filters = $this->getDefaultFilters();
+		
+		if($request->getParameter('entitlements_oldworker' == "checked")){
+			                $this->redirect('/recruitment/viewCandidates');
+
+		}
         
         if ($request->isMethod('post')) {
 
