@@ -4307,7 +4307,7 @@
       </trans-unit>
       <trans-unit id="1076">
         <source>Active Job Vacancies</source>
-        <target>Thành công việc các vị trí cần tuyển</target>
+        <target>Vị trí tuyển dụng đang hoạt động</target>
       </trans-unit>
       <trans-unit id="1077">
         <source>added</source>
@@ -4431,7 +4431,7 @@
       </trans-unit>
       <trans-unit id="1107">
         <source>User Role</source>
-        <target/>
+        <target>Vai trò người dùng</target>
       </trans-unit>
       <trans-unit id="1108">
         <source>Processing</source>
@@ -6227,7 +6227,7 @@
       </trans-unit>
       <trans-unit id="1556">
         <source>Number of Positions</source>
-        <target>Số lượng Chứng khoán</target>
+        <target>Số lượng vị trí</target>
       </trans-unit>
       <trans-unit id="1557">
         <source>Offer Declined</source>
@@ -6783,7 +6783,7 @@
       </trans-unit>
       <trans-unit id="1695">
         <source>Department</source>
-        <target/>
+        <target>Phòng ban</target>
       </trans-unit>
       <trans-unit id="1696">
         <source>Key Performance Indicator Groups</source>
@@ -6847,7 +6847,7 @@
       </trans-unit>
       <trans-unit id="1711">
         <source>Supervisor Reviewers</source>
-        <target>Đánh giá người quản lý</target>
+        <target>Cấp trên đánh giá</target>
       </trans-unit>
       <trans-unit id="1712">
         <source>Work Period Start Date</source>
@@ -6987,7 +6987,7 @@
       </trans-unit>
       <trans-unit id="1746">
         <source>Inactive</source>
-        <target/>
+        <target>Chưa kích hoạt</target>
       </trans-unit>
       <trans-unit id="1747">
         <source>Activated</source>
@@ -7131,7 +7131,7 @@
       </trans-unit>
       <trans-unit id="1782">
         <source>Supervisor Reviewer</source>
-        <target/>
+        <target>Cấp trên đánh giá</target>
       </trans-unit>
       <trans-unit id="1783">
         <source>General Comment : </source>
@@ -7351,11 +7351,11 @@
       </trans-unit>
       <trans-unit id="1837">
         <source>The password is too weak.</source>
-        <target/>
+        <target>Mật khẩu quá yếu</target>
       </trans-unit>
       <trans-unit id="1838">
         <source>For a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbers</source>
-        <target/>
+        <target>Để có mật khẩu mạnh, vui lòng sử dụng kết hợp văn bản khó đoán với các ký tự viết hoa và viết thường, ký hiệu và số </target>
       </trans-unit>
       <trans-unit id="1839">
         <source>Your password meets the minimum requirements, but it could be guessable. Try a different password.</source>
@@ -7363,11 +7363,11 @@
       </trans-unit>
       <trans-unit id="1840">
         <source>Your password must contain a lower-case letter, an upper-case letter, a digit and a special character. Try a different password.</source>
-        <target/>
+        <target>Mật khẩu của bạn phải chứa một chữ cái viết thường, một chữ cái viết hoa, một chữ số và một ký tự đặc biệt. Hãy thử một mật khẩu khác. </target>
       </trans-unit>
       <trans-unit id="1841">
         <source>Should not be more than 10000</source>
-        <target/>
+        <target>Không thể nhiều hơn 10000</target>
       </trans-unit>
       <trans-unit id="1842">
         <source>Employee does not exist</source>
@@ -8168,7 +8168,11 @@
       <trans-unit id="2041">
         <source>Employees Terminated</source>
         <target>Nhân viên đã nghỉ</target>
-      </trans-unit>      
+      </trans-unit>   
+       <trans-unit id="2042">
+        <source>Oldworker</source>
+        <target>Nhân viên cũ</target>
+      </trans-unit>    
       
     </body>
   </file>
