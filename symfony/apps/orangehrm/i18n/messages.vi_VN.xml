@@ -74,11 +74,11 @@
       </trans-unit>
       <trans-unit id="18">
         <source>Albanian</source>
-        <target>Tiếng Albania</target>
+        <target>Albania</target>
       </trans-unit>
       <trans-unit id="19">
         <source>Albanian Lek</source>
-        <target>Tiếng Albania Lek</target>
+        <target>Albania Lek</target>
       </trans-unit>
       <trans-unit id="20">
         <source>Algeria</source>
@@ -210,7 +210,7 @@
       </trans-unit>
       <trans-unit id="52">
         <source>Armenian</source>
-        <target>Tiếng Armenia</target>
+        <target>Armenia</target>
       </trans-unit>
       <trans-unit id="53">
         <source>Aruba</source>
@@ -410,7 +410,7 @@
       </trans-unit>
       <trans-unit id="102">
         <source>Bosnian</source>
-        <target>Tiếng Bosnia</target>
+        <target>Bosnia</target>
       </trans-unit>
       <trans-unit id="103">
         <source>Botswana</source>
@@ -462,7 +462,7 @@
       </trans-unit>
       <trans-unit id="115">
         <source>Bulgarian</source>
-        <target>Tiếng Bun-ga-ri</target>
+        <target>Bun-ga-ri</target>
       </trans-unit>
       <trans-unit id="116">
         <source>Bulgarian Lev</source>
@@ -1138,11 +1138,11 @@
       </trans-unit>
       <trans-unit id="284">
         <source>Estonian</source>
-        <target>Tiếng Estonia</target>
+        <target>Estonia</target>
       </trans-unit>
       <trans-unit id="285">
         <source>Estonian Krona</source>
-        <target>Tiếng Estonia Krona</target>
+        <target>Estonia Krona</target>
       </trans-unit>
       <trans-unit id="286">
         <source>Ethiopia</source>
@@ -1714,11 +1714,11 @@
       </trans-unit>
       <trans-unit id="428">
         <source>Job Categories</source>
-        <target>Đơn vị công tác</target>
+        <target>Nhóm công việc</target>
       </trans-unit>
       <trans-unit id="429">
         <source>Job Category</source>
-        <target>Ngành nghề</target>
+        <target>Nhóm công việc</target>
       </trans-unit>
       <trans-unit id="430">
         <source>Job Specification</source>
@@ -2054,7 +2054,7 @@
       </trans-unit>
       <trans-unit id="513">
         <source>Macedonian</source>
-        <target>Tiếng Macedonia</target>
+        <target>Macedonia</target>
       </trans-unit>
       <trans-unit id="514">
         <source>Madagascar</source>
@@ -2126,11 +2126,11 @@
       </trans-unit>
       <trans-unit id="531">
         <source>Maltese</source>
-        <target>Tiếng Malta</target>
+        <target>Malta</target>
       </trans-unit>
       <trans-unit id="532">
         <source>Maltese Lira</source>
-        <target>Tiếng Malta Lira</target>
+        <target>Malta Lira</target>
       </trans-unit>
       <trans-unit id="533">
         <source>March</source>
@@ -2379,7 +2379,7 @@
       </trans-unit>
       <trans-unit id="594">
         <source>Nationalities</source>
-        <target>Dân tộc</target>
+        <target>Quốc tịch</target>
       </trans-unit>
       <trans-unit id="595">
         <source>Nationality</source>
@@ -2763,7 +2763,7 @@
       </trans-unit>
       <trans-unit id="690">
         <source>Philippines</source>
-        <target>Việt Nam</target>
+        <target>Philippines</target>
       </trans-unit>
       <trans-unit id="691">
         <source>Physically Disabled/Compensated</source>
@@ -3247,7 +3247,7 @@
       </trans-unit>
       <trans-unit id="811">
         <source>Slovenian</source>
-        <target>Tiếng Slovenia</target>
+        <target>Slovenia</target>
       </trans-unit>
       <trans-unit id="812">
         <source>Solomon Islander</source>
@@ -3787,7 +3787,7 @@
       </trans-unit>
       <trans-unit id="946">
         <source>Vietnamese</source>
-        <target>Việt</target>
+        <target>Việt Nam</target>
       </trans-unit>
       <trans-unit id="947">
         <source>Vietnamese Dong</source>
@@ -3831,7 +3831,7 @@
       </trans-unit>
       <trans-unit id="957">
         <source>Welsh</source>
-        <target>Tiếng Wales</target>
+        <target>Wales</target>
       </trans-unit>
       <trans-unit id="958">
         <source>West Virginia</source>
@@ -3979,11 +3979,11 @@
       </trans-unit>
       <trans-unit id="994">
         <source>Successfully Submitted</source>
-        <target>Thành công trình</target>
+        <target>Gửi thành công</target>
       </trans-unit>
       <trans-unit id="995">
         <source>Invalid Employee</source>
-        <target>Không hợp lệ nhân viên</target>
+        <target>Nhân viên không hợp lệ</target>
       </trans-unit>
       <trans-unit id="996">
         <source>Accepts .docx, .doc, .odt, .pdf, .rtf, .txt up to 1MB</source>
@@ -4003,11 +4003,11 @@
       </trans-unit>
       <trans-unit id="1000">
         <source>Failed to Save: File Size Exceeded</source>
-        <target>Không: Kích cỡ file vượt quá</target>
+        <target>Lưu thất bại: Kích cỡ file quá giới hạn</target>
       </trans-unit>
       <trans-unit id="1001">
         <source>No Employees Available</source>
-        <target>Không có sẵn nhân viên</target>
+        <target>Không có nhân viên phù hợp</target>
       </trans-unit>
       <trans-unit id="1002">
         <source>Should have at least %number% characters</source>
@@ -4039,7 +4039,7 @@
       </trans-unit>
       <trans-unit id="1009">
         <source>Joined in Between</source>
-        <target>Tham gia ở giữa</target>
+        <target>Tham gia trong khoảng</target>
       </trans-unit>
       <trans-unit id="1010">
         <source>Successfully Changed</source>
@@ -4571,7 +4571,7 @@
       </trans-unit>
       <trans-unit id="1142">
         <source>View Leave Request Comments</source>
-        <target/>
+        <target>Xem bình luận yêu cầu nghỉ phép</target>
       </trans-unit>
       <trans-unit id="1143">
         <source>User Management</source>
@@ -4747,15 +4747,15 @@
       </trans-unit>
       <trans-unit id="1186">
         <source>Add Employment Status</source>
-        <target>Thêm tình trạng việc làm</target>
+        <target>Thêm Trạng thái nhân viên</target>
       </trans-unit>
       <trans-unit id="1187">
         <source>Add Job Category</source>
-        <target>Thêm Ngành nghề</target>
+        <target>Thêm Nhóm công việc</target>
       </trans-unit>
       <trans-unit id="1188">
         <source>Add Job Title</source>
-        <target>Thêm tiêu đề công việc</target>
+        <target>Thêm Chức vụ</target>
       </trans-unit>
       <trans-unit id="1189">
         <source>Add Location</source>
@@ -4887,7 +4887,7 @@
       </trans-unit>
       <trans-unit id="1221">
         <source>Edit Job Category</source>
-        <target>Chỉnh sửa Ngành nghề</target>
+        <target>Chỉnh sửa Nhóm công việc</target>
       </trans-unit>
       <trans-unit id="1222">
         <source>Edit Job Title</source>
@@ -6047,7 +6047,7 @@
       </trans-unit>
       <trans-unit id="1511">
         <source>Application Initiated</source>
-        <target>Ứng dụng khởi động</target>
+        <target>Đơn đăng ký</target>
       </trans-unit>
       <trans-unit id="1512">
         <source>applied for the</source>
@@ -6139,7 +6139,7 @@
       </trans-unit>
       <trans-unit id="1534">
         <source>Edit Job Vacancy</source>
-        <target>Chỉnh vị trí tuyển dụng</target>
+        <target>Chỉnh sửa vị trí tuyển dụng</target>
       </trans-unit>
       <trans-unit id="1535">
         <source>Editing Candidate</source>
@@ -6423,7 +6423,7 @@
       </trans-unit>
       <trans-unit id="1605">
         <source>Leave Balance</source>
-        <target>Số dư ngày nghỉ</target>
+        <target>Số ngày nghỉ</target>
       </trans-unit>
       <trans-unit id="1606">
         <source>Leave Comment</source>
@@ -6599,7 +6599,7 @@
       </trans-unit>
       <trans-unit id="1649">
         <source>Is entitlement situational</source>
-        <target/>
+        <target>Là tình huống quyền lợi</target>
       </trans-unit>
       <trans-unit id="1650">
         <source>Edit Leave Entitlement</source>
@@ -6643,11 +6643,11 @@
       </trans-unit>
       <trans-unit id="1660">
         <source>view details</source>
-        <target/>
+        <target>Xem chi tiết</target>
       </trans-unit>
       <trans-unit id="1661">
         <source>As of Date</source>
-        <target/>
+        <target>Tính tới ngày</target>
       </trans-unit>
       <trans-unit id="1662">
         <source>Overlapping Leave Requests Found</source>
@@ -6671,7 +6671,7 @@
       </trans-unit>
       <trans-unit id="1667">
         <source>Assigning Leave Entitlement. Please Wait</source>
-        <target/>
+        <target>Đang thực hiện đăng ký nghỉ phép.  Vui lòng đợi...</target>
       </trans-unit>
       <trans-unit id="1668">
         <source>Calculating Leave Balance</source>
@@ -6699,11 +6699,11 @@
       </trans-unit>
       <trans-unit id="1674">
         <source>Specify Time</source>
-        <target/>
+        <target>Giờ cụ thể</target>
       </trans-unit>
       <trans-unit id="1675">
         <source>Partial Days</source>
-        <target/>
+        <target>Cách tính ngày</target>
       </trans-unit>
       <trans-unit id="1676">
         <source>None</source>
@@ -7087,7 +7087,7 @@
       </trans-unit>
       <trans-unit id="1771">
         <source>OrangeHRM - Information</source>
-        <target/>
+        <target>HRM - Thông tin</target>
       </trans-unit>
       <trans-unit id="1772">
         <source>Employee Evaluation Form</source>

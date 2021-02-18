@@ -66,8 +66,8 @@ use_javascript(plugin_web_path('orangehrmRecruitmentPlugin', 'js/addJobVacancySu
                     <li><div class="publishJobVacancySeparator">&nbsp;</div></li>
                     -->
                     <li class="labelRight">
-                        <?php echo $form['publishedInFeed']->render(); ?>
-                        <?php echo $form['publishedInFeed']->renderLabel(__('Publish in RSS feed(1) and web page(2)')); ?>
+                        <?php //echo $form['publishedInFeed']->render(); ?>
+                        <?php //echo $form['publishedInFeed']->renderLabel(__('Publish in RSS feed(1) and web page(2)')); ?>
                     </li>
 
                     <?php include_component('core', 'ohrmPluginPannel', array('location' => 'add_layout_before_navigation_bar_1')) ?>
@@ -76,10 +76,10 @@ use_javascript(plugin_web_path('orangehrmRecruitmentPlugin', 'js/addJobVacancySu
                         <em>*</em> <?php echo __(CommonMessages::REQUIRED_FIELD); ?>
                     </li>
                     <li class="helpText">
-                        1 : <?php echo __('RSS Feed URL') ?> : <?php echo link_to('', 'recruitmentApply/jobs.rss', array('absolute' => true, 'target' => '_new')); ?>
+                        <?php //echo __('RSS Feed URL') ?> : <?php //echo link_to('', 'recruitmentApply/jobs.rss', array('absolute' => true, 'target' => '_new')); ?>
                     </li>
                     <li class="helpText">
-                        2 : <?php echo __('Web Page URL') ?> : <?php echo link_to('', 'recruitmentApply/jobs.html', array('absolute' => true, 'target' => '_new')); ?>
+                       <?php //echo __('Web Page URL') ?> : <?php //echo link_to('', 'recruitmentApply/jobs.html', array('absolute' => true, 'target' => '_new')); ?>
                     </li>
                 </ol>
                 <p>
