@@ -2,7 +2,7 @@
 <div class="modal hide" id="alertModal">
   <div class="modal-header">
     <a class="close" data-dismiss="modal">×</a>
-    <h3>OrangeHRM - Thông báo</h3>
+    <h3>HRM - Thông báo</h3>
   </div>
   <div class="modal-body" id="modal-body"></div>
 </div>
@@ -192,7 +192,7 @@ if (isset($_REQUEST['id'])) {
 <div class="modal hide" id="deleteConfModal">
   <div class="modal-header">
     <a class="close" data-dismiss="modal">×</a>
-    <h3>OrangeHRM - Yêu cầu xác nhận</h3>
+    <h3>HRM - Yêu cầu xác nhận</h3>
   </div>
   <div class="modal-body">
     <p>Xóa dữ liệu?</p>

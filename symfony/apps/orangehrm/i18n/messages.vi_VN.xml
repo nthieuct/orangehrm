@@ -4531,7 +4531,7 @@
       </trans-unit>
       <trans-unit id="1132">
         <source>No employees match the selected filters</source>
-        <target/>
+        <target>Không có nhân viên phù hợp điều kiện lọc được chọn</target>
       </trans-unit>
       <trans-unit id="1133">
         <source>Leave Entitlements and Usage Report</source>
@@ -4543,7 +4543,7 @@
       </trans-unit>
       <trans-unit id="1135">
         <source>Matching Employees</source>
-        <target/>
+        <target>Nhân viên phù hợp</target>
       </trans-unit>
       <trans-unit id="1136">
         <source>Generate For</source>
@@ -6607,7 +6607,7 @@
       </trans-unit>
       <trans-unit id="1651">
         <source>The selected leave entitlement will be applied to the following employees.</source>
-        <target/>
+        <target>Quyền lợi nghỉ phép được chọn sẽ được áp dụng cho những nhân viên dưới đây</target>
       </trans-unit>
       <trans-unit id="1652">
         <source>Old Entitlement</source>
@@ -6619,7 +6619,7 @@
       </trans-unit>
       <trans-unit id="1654">
         <source>Used amount exceeds the current amount</source>
-        <target/>
+        <target>Lượng sử dụng vượt quá lượng hiện tại</target>
       </trans-unit>
       <trans-unit id="1655">
         <source>Leave Balance Details</source>
