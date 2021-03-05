@@ -1062,7 +1062,7 @@
       </trans-unit>
       <trans-unit id="265">
         <source>Employee First Name</source>
-        <target>Tên</target>
+        <target>Họ</target>
       </trans-unit>
       <trans-unit id="266">
         <source>Employee Id</source>
@@ -1070,7 +1070,7 @@
       </trans-unit>
       <trans-unit id="267">
         <source>Employee Last Name</source>
-        <target>Họ</target>
+        <target>Tên</target>
       </trans-unit>
       <trans-unit id="268">
         <source>Employee List</source>
@@ -1246,7 +1246,7 @@
       </trans-unit>
       <trans-unit id="311">
         <source>First Name</source>
-        <target>Tên</target>
+        <target>Họ</target>
       </trans-unit>
       <trans-unit id="312">
         <source>Florida</source>
@@ -1866,7 +1866,7 @@
       </trans-unit>
       <trans-unit id="466">
         <source>Last Name</source>
-        <target>Họ</target>
+        <target>Tên</target>
       </trans-unit>
       <trans-unit id="467">
         <source>Latvia</source>
@@ -6003,7 +6003,7 @@
       </trans-unit>
       <trans-unit id="1500">
         <source>First (&amp; Middle) Name</source>
-        <target/>
+        <target>Họ và tên đệm</target>
       </trans-unit>
       <trans-unit id="1501">
         <source>Failed to Delete: At Least One Admin Should Exist</source>
